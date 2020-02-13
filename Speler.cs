@@ -17,10 +17,10 @@ namespace Interclub
         public int Rating { get; set; }
         public string Naam { get; set; }
 
-        public static Speler SpelerChecken(int stamnummer, int rating, string naam) {
-            if (Spelers.IsGeregistreerd(stamnummer, out Speler speler)) return speler;
-            else { Speler nieuw= new Speler(stamnummer, rating, naam); Spelers.SpelerToevoegen(nieuw); return nieuw; }       
-        } 
-        
+        public override string ToString()
+        {
+            return Naam;
+        }
+
     }
 }

@@ -6,21 +6,25 @@ namespace Interclub
 {
     class Spelers
     {
-        public static List<Speler> lijst { get; set; }
+        public static List<Speler> Lijst { get; set; }
 
-        public static void SpelerToevoegen(Speler speler) {
-            lijst.Add(speler);
+        public Spelers() {
+        Lijst=new List<Speler>();        
         }
 
-        public static bool IsGeregistreerd(int stamnummer, out Speler speler)
-        {
-            foreach (Speler item in lijst)
-                if (item.Stamnummer == stamnummer)
-                { speler = item; return true; }
+        public static void SpelerToevoegen(Speler speler) {
+            Lijst.Add(speler);
+        }
 
-            speler = null;
-            return false;
-            
+        public static Speler ZoekSpeler(int stamnummer, string naam, int rating)
+        {
+            foreach (Speler item in Lijst)
+                if (item.Stamnummer == stamnummer)
+                {  return item; }
+
+            Speler nieuweSpeler= new Speler(stamnummer,rating, naam);
+            SpelerToevoegen(nieuweSpeler);
+            return nieuweSpeler;            
 
         }
     }

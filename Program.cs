@@ -30,7 +30,7 @@ namespace Interclub
                 Ploeg clubThuis;
                 Ploeg clubUit;
 
-
+                               
 
                 while ((regel = reader.ReadLine()) != null)
                 {
@@ -45,7 +45,7 @@ namespace Interclub
 
 
 
-                    if (regel.Length > 3)
+                    if (regel.Length > 3){
                         //ploegen inlezen
                         if (int.TryParse(regel.Substring(0, 3), out _) || regel.StartsWith("0 BYE"))
                         {
@@ -111,8 +111,40 @@ namespace Interclub
                             clubUit=database.AddPloeg(clubuitNummer, clubuitNaam, clubuitPloegNummer, klasse, reeks);
 
                         }
+                        //Partijen inlezen
+
+                        if (int.TryParse(regel.Substring(0,1), out int bord)&&bord!=0&&regel.IndexOf(" ")==1){
+                        
+                            regel= regel.Substring(regel.IndexOf(" ")+1);
+                            int witstamnummer= int.Parse(regel.Substring(0,regel.IndexOf(" ")+1));
+                            string witspelerNaam ="";
+                            while (!int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _))
+                                {
+                                    witspelerNaam += regel.Substring(0, regel.IndexOf(" "));
+                                    regel = regel.Substring(regel.IndexOf(" ") + 1);
+                                }
+                            int witrating= int.Parse(regel.Substring(0,regel.IndexOf(" ")+1));
+                            regel= regel.Substring(regel.IndexOf(" ")+1);
+
+                            int resultaat= ZoekResultaat(regel.Substring(0, regel.IndexOf(" ")));
+                            regel= regel.Substring(regel.IndexOf(" ")+1);
+
+                            int zwartstamnummer= int.Parse(regel.Substring(0,regel.IndexOf(" ")+1));
+                            string zwartspelerNaam ="";
+                            while (!int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _))
+                                {
+                                    zwartspelerNaam += regel.Substring(0, regel.IndexOf(" "));
+                                    regel = regel.Substring(regel.IndexOf(" ") + 1);
+                                }
+                            int zwartrating= int.Parse(regel);
+
+                            
 
 
+                            
+                        
+                        }
+                            }
                     
 
 
@@ -128,6 +160,19 @@ namespace Interclub
 
 
             database.PrintAllePloegen();
+
+
+            static int ZoekResultaat(string resultaat){
+            if(resultaat=="1-0")
+                    return 1;
+            if(resultaat=="½-½")
+                    return 2;
+            if(resultaat=="0-1")
+                    return 3;
+
+            return 0;          
+                        
+            }
         }
     }
 }
