@@ -10,6 +10,8 @@ namespace Interclub
         static void Main(string[] args)
         {
             Ploegen database = new Ploegen();
+            Spelers spelers = new Spelers();
+            Partijen partijen = new Partijen();
 
 
 
@@ -27,10 +29,11 @@ namespace Interclub
                 string clubuitNaam;
                 int clubuitPloegNummer;
 
-                Ploeg clubThuis;
-                Ploeg clubUit;
+                Ploeg clubThuis= new Ploeg(309,"Roeselare",1,4,"B");
+                Ploeg clubUit= new Ploeg(309, "Roeselare", 1, 4, "B");
 
-                               
+
+
 
                 while ((regel = reader.ReadLine()) != null)
                 {
@@ -117,6 +120,7 @@ namespace Interclub
                         
                             regel= regel.Substring(regel.IndexOf(" ")+1);
                             int witstamnummer= int.Parse(regel.Substring(0,regel.IndexOf(" ")+1));
+                            regel = regel.Substring(regel.IndexOf(" ") + 1);
                             string witspelerNaam ="";
                             while (!int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _))
                                 {
@@ -130,14 +134,17 @@ namespace Interclub
                             regel= regel.Substring(regel.IndexOf(" ")+1);
 
                             int zwartstamnummer= int.Parse(regel.Substring(0,regel.IndexOf(" ")+1));
+                            regel = regel.Substring(regel.IndexOf(" ") + 1);
                             string zwartspelerNaam ="";
-                            while (!int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _))
+                            while (regel.Contains(' ') && !int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _))
                                 {
                                     zwartspelerNaam += regel.Substring(0, regel.IndexOf(" "));
                                     regel = regel.Substring(regel.IndexOf(" ") + 1);
                                 }
                             int zwartrating= int.Parse(regel);
 
+                            partijen.PartijToevoegen(new Partij(spelers.ZoekSpeler(witstamnummer, witspelerNaam, witrating),
+                                spelers.ZoekSpeler(zwartstamnummer, zwartspelerNaam, zwartrating), clubThuis, clubUit, resultaat));
                             
 
 
@@ -159,7 +166,7 @@ namespace Interclub
             }
 
 
-            database.PrintAllePloegen();
+            partijen.PrintAlles();
 
 
             static int ZoekResultaat(string resultaat){

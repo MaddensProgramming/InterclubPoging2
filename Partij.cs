@@ -16,10 +16,15 @@ namespace Interclub
         }
 
         public Speler Wit { get; set; }
-        public Speler Zwart{ get; set; }
+        public Speler Zwart { get; set; }
         public Ploeg ClubWit { get; set; }
         public Ploeg ClubZwart { get; set; }
         public int Resultaat { get; set; }
+
+        public override string ToString()
+        {
+            return Wit.ToString() + " " + Resultaat + " " + Zwart.ToString();
+        }
 
     }
 }

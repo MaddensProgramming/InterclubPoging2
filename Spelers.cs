@@ -6,17 +6,17 @@ namespace Interclub
 {
     class Spelers
     {
-        public static List<Speler> Lijst { get; set; }
+        public List<Speler> Lijst { get; set; }
 
         public Spelers() {
         Lijst=new List<Speler>();        
         }
 
-        public static void SpelerToevoegen(Speler speler) {
+        public void SpelerToevoegen(Speler speler) {
             Lijst.Add(speler);
         }
 
-        public static Speler ZoekSpeler(int stamnummer, string naam, int rating)
+        public Speler ZoekSpeler(int stamnummer, string naam, int rating)
         {
             foreach (Speler item in Lijst)
                 if (item.Stamnummer == stamnummer)

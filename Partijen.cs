@@ -6,13 +6,24 @@ namespace Interclub
 {
     public class Partijen
     {
-       public static List<Partij> alles { get; set; }
-
-        public static void PartijToevoegen(Partij partij)
+        public Partijen()
         {
-            alles.Add(partij);
+            Alles = new List<Partij>();
         }
 
+        public List<Partij> Alles { get; set; }
+
+
+        public void PartijToevoegen(Partij partij)
+        {
+           this.Alles.Add(partij);
+        }
+
+        public void PrintAlles() {
+            foreach (Partij partij in Alles)
+                Console.WriteLine(partij);
+        
+        }
     
 
 
