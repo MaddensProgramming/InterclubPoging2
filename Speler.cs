@@ -17,6 +17,8 @@ namespace Interclub
         public int Rating { get; set; }
         public string Naam { get; set; }
 
+        public decimal Punten { get; set; }
+
         public override string ToString()
         {
             return Naam;

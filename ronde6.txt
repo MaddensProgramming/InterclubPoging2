@@ -921,7 +921,7 @@ Division: 5 Série: E
 1 78166 Dupont, Claude 1692 1-0 60174 Jamar, Marc 1479
 2 63771 Drossart, Julien 1481 0-1 19722 Nouni, Mehdi 1239
 3 67971 Lepape, Philippe 1446 1-0 14838 Belhadj, Mustapha 1050
-4 17716 Sammoudi, Ralia 1180 0F-1F 14275 Dallemagne, Rodrigue
+4 17716 Sammoudi, Ralia 1180 0F-1F 14275 Dallemagne, Rodriguez 1050
 < 1450 > 2 - 2 < 1256 >
 Division: 5 Série: E
 501 CREC 4 SAMBREVILLE 2 902

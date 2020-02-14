@@ -854,7 +854,6 @@ Division: 5 Série: C
 4 13618 Kumpen, Kurt 1439 1-0 19478 Schouteden, Linda 1150
 < 1491 > 2.5 - 1.5 < 1446 >
 Division: 5 Série: C
-0 BYE BYE 0
 1 -
 2 -
 3 -
