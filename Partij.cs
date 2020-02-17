@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace Interclub
 {
@@ -25,6 +26,6 @@ namespace Interclub
         {
             return Wit.ToString() + " " + Resultaat + " " + Zwart.ToString();
         }
-
+       
     }
 }

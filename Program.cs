@@ -2,6 +2,7 @@
 using System.IO;
 using System.Text;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Interclub
 {
@@ -168,7 +169,28 @@ namespace Interclub
                 }
 
 
-            spelers.PrintTalenten(partijen);
+
+
+            //spelers.PrintTalenten(partijen);
+
+            /*decimal totaal = 0;
+
+            var onzeReeks = from ploeg in database.Lijst
+                            where ploeg.Reeks == "A" && ploeg.Klasse == 2
+                            select ploeg;
+
+            foreach (var team in onzeReeks)
+            {
+                totaal += partijen.GemiddeldeElo(team);
+                Console.WriteLine(team.ToString() + ": " + partijen.GemiddeldeElo(team));   
+                    }
+            Console.WriteLine("A: " + totaal / 12);
+             totaal = 0;
+             */
+          
+            
+
+            
 
 
 

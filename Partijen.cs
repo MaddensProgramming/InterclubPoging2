@@ -65,6 +65,36 @@ namespace Interclub
 
         }
 
+        public decimal GemiddeldeElo(Ploeg team)
+        {
+            int totaalpunten = 0;
+            int aantalpartijen = 0;
+            var teamwit = from partij in Alles
+                          where partij.ClubWit == team
+                          select partij.Wit.Rating;
+
+
+            foreach (int rating in teamwit) {
+                totaalpunten += rating;
+                aantalpartijen++;
+            }
+            var teamzwart = from partij in Alles
+                          where partij.ClubZwart == team
+                          select partij.Zwart.Rating;
+
+
+            foreach (int rating in teamzwart)
+            {
+                totaalpunten += rating;
+                aantalpartijen++;
+            }
+
+            return Math.Round(((decimal)totaalpunten / ((decimal)aantalpartijen)));
+
+
+
+
+        }
 
 
     }
