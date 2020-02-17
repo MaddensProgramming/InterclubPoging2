@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Interclub
 {
-    class Spelers
+   public class Spelers
     {
         public List<Speler> Lijst { get; set; }
 
@@ -29,7 +29,17 @@ namespace Interclub
 
         }
 
-       
+        public Speler ZoekSpeler(string naam) {
+
+            foreach (Speler item in Lijst)
+                if (item.Naam==naam)
+                { return item; }
+
+
+            return null;
+
+        }
+
         public Speler ZoekSpeler(int stamnummer)
         {
             foreach (Speler item in Lijst)
@@ -43,18 +53,29 @@ namespace Interclub
 
         public void PrintTalenten(Partijen partijen) {
 
-            foreach (Speler speler in Lijst)            
-                speler.Punten = partijen.PrintPunten(speler);
-            var lijst = from speler in Lijst                        
-                        orderby speler.Punten descending, speler.Rating descending
+            VulGegevensIn(partijen);
+            var lijst = from speler in Lijst
+                        orderby speler.TPR descending, speler.Punten descending
+                        where speler.AantalPartijen>3                      
                         select speler;
             int i = 1;
             foreach (Speler speler in lijst)
             {
-                Console.WriteLine(i + ". " + speler + ": " + speler.Punten + " " + speler.Rating);
+                Console.WriteLine(i + ". " + speler + ", " + speler.Rating + ": " + speler.Punten +"/" + speler.AantalPartijen + " TPR: " + speler.TPR);
                 i++;
             }
 
+
+        }
+
+        public void VulGegevensIn(Partijen partijen) {
+
+            foreach (Speler speler in Lijst)
+            {
+                speler.Punten = partijen.PrintPunten(speler, out int aantalPartijen);
+                speler.TPR = partijen.TPR(speler);
+                speler.AantalPartijen = aantalPartijen;
+            }
 
         }
 

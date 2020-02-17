@@ -19,6 +19,13 @@ namespace Interclub
 
         public decimal Punten { get; set; }
 
+        public int AantalPartijen { get; set; }
+
+        public int TPR { get; set; }
+
+
+        
+
         public override string ToString()
         {
             return Naam;

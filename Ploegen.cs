@@ -51,5 +51,13 @@ namespace Interclub
         }
 
 
+        public Ploeg ZoekPloeg(string clubnaam, int ploegnummer) {
+
+            var zoekopdracht = from ploeg in Lijst
+                               where (clubnaam == ploeg.Naam) && (ploegnummer == ploeg.Nummer)
+                               select ploeg;
+            return zoekopdracht.First();
+        }
+
     }
 }

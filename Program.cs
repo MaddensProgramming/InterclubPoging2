@@ -15,12 +15,13 @@ namespace Interclub
             Partijen partijen = new Partijen();
 
 
-            for (int i = 1; i < 8; i++)
+            for (int i = 1; i < 9; i++)
                 using (StreamReader reader = new StreamReader(@"C:\Users\User\Source\Repos\MaddensProgramming\InterclubPoging2\" + "ronde" + i + ".txt"))
                 {
                     string regel;
                     string reeks = "A";
                     int klasse = 1;
+                    int bord = 1;
 
                     int clubthuisNummer;
                     string clubthuisNaam;
@@ -118,7 +119,7 @@ namespace Interclub
                             }
                             //Partijen inlezen
 
-                            if (int.TryParse(regel.Substring(0, 1), out int bord) && bord != 0 && regel.IndexOf(" ") == 1)
+                            if (int.TryParse(regel.Substring(0, 1), out bord) && bord != 0 && regel.IndexOf(" ") == 1)
                             {
 
                                 regel = regel.Substring(regel.IndexOf(" ") + 1);
@@ -146,7 +147,7 @@ namespace Interclub
                                 }
                                 int zwartrating = int.Parse(regel);
 
-                                partijen.PartijToevoegen(new Partij(spelers.ZoekSpeler(witstamnummer, witspelerNaam, witrating),
+                                partijen.PartijToevoegen(new Partij(bord,spelers.ZoekSpeler(witstamnummer, witspelerNaam, witrating),
                                     spelers.ZoekSpeler(zwartstamnummer, zwartspelerNaam, zwartrating), clubThuis, clubUit, resultaat));
 
 
@@ -187,11 +188,16 @@ namespace Interclub
             Console.WriteLine("A: " + totaal / 12);
              totaal = 0;
              */
-          
-            
+
+
+
+            //spelers.PrintTalenten(partijen);
+
+
+            spelers.VulGegevensIn(partijen);
+            partijen.PloegOpstelling(database.ZoekPloeg("JEANJAURES", 2),spelers);
 
             
-
 
 
             static int ZoekResultaat(string resultaat)
@@ -209,3 +215,8 @@ namespace Interclub
         }
     }
 }
+
+
+
+
+       
