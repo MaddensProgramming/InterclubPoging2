@@ -20,13 +20,13 @@ namespace Interclub
             Partijen partijen = new Partijen();
 
             #region Initialize data
-            for (int i = 1; i <= 11; i++)
-                using (StreamReader reader = new StreamReader("rondes/2021/ronde" + i + ".txt"))
+            for (int round = 1; round <= 11; round++)
+                using (StreamReader reader = new StreamReader("rondes/2021/ronde" + round + ".txt"))
                 {
                     string regel;
                     string reeks = "A";
                     int klasse = 1;
-                    int bord = 1;
+                    int board = 1;
 
                     int clubthuisNummer;
                     string clubthuisNaam;
@@ -62,20 +62,20 @@ namespace Interclub
                             {
 
                                 clubthuisNummer = int.Parse(regel.Substring(0, regel.IndexOf(" ")));
-                                regel = regel.Substring(regel.IndexOf(" ") + 1);
+                                ForwardTillAfterWhitspace(ref regel);
                                 clubthuisNaam = "";
 
-                                if(shitPloegen.Any(name => regel.StartsWith(name))) 
+                                if (shitPloegen.Any(name => regel.StartsWith(name)))
                                 {
                                     clubthuisNaam = shitPloegen.First(name => regel.StartsWith(name));
                                     regel = regel.Substring(clubthuisNaam.Length + 1);
                                 }
                                 else
                                 {
-                                    while (!int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _)&& !clubthuisNaam.StartsWith("BYE"))
+                                    while (!int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _) && !clubthuisNaam.StartsWith("BYE"))
                                     {
                                         clubthuisNaam += regel.Substring(0, regel.IndexOf(" ")) + " ";
-                                        regel = regel.Substring(regel.IndexOf(" ") + 1);
+                                        ForwardTillAfterWhitspace(ref regel);
                                     }
                                 }
                                 if (clubthuisNaam.StartsWith("BYE"))
@@ -83,7 +83,7 @@ namespace Interclub
                                 else
                                 {
                                     clubthuisPloegNummer = int.Parse(regel.Substring(0, regel.IndexOf(" ")));
-                                    regel = regel.Substring(regel.IndexOf(" ") + 1);
+                                    ForwardTillAfterWhitspace(ref regel);
                                 }
 
                                 clubuitNaam = "";
@@ -97,8 +97,8 @@ namespace Interclub
 
                                     while (regel.Contains(' ') && !int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _) && !clubuitNaam.StartsWith("BYE"))
                                     {
-                                        clubuitNaam += regel.Substring(0, regel.IndexOf(" "))+ " ";
-                                        regel = regel.Substring(regel.IndexOf(" ") + 1);
+                                        clubuitNaam += regel.Substring(0, regel.IndexOf(" ")) + " ";
+                                        ForwardTillAfterWhitspace(ref regel);
                                     }
                                 }
 
@@ -108,7 +108,7 @@ namespace Interclub
                                 else
                                 {
                                     clubuitPloegNummer = int.Parse(regel.Substring(0, regel.IndexOf(" ")));
-                                    regel = regel.Substring(regel.IndexOf(" ") + 1);
+                                    ForwardTillAfterWhitspace(ref regel);
                                 }
 
                                 clubuitNummer = int.Parse(regel);
@@ -120,36 +120,33 @@ namespace Interclub
                             #endregion
 
                             #region Partijen Inlezen
-                            if (int.TryParse(regel.Substring(0, 1), out bord) && bord != 0 && regel.IndexOf(" ") == 1)
+                            if (int.TryParse(regel.Substring(0, 1), out board) && board != 0 && regel.IndexOf(" ") == 1)
                             {
-
-                                regel = regel.Substring(regel.IndexOf(" ") + 1);
-                                int witstamnummer = int.Parse(regel.Substring(0, regel.IndexOf(" ") + 1));
-                                regel = regel.Substring(regel.IndexOf(" ") + 1);
-                                string witspelerNaam = "";
-                                while (!int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _))
-                                {
-                                    witspelerNaam += regel.Substring(0, regel.IndexOf(" "))+ " ";
-                                    regel = regel.Substring(regel.IndexOf(" ") + 1);
-                                }
-                                int witrating = int.Parse(regel.Substring(0, regel.IndexOf(" ") + 1));
-                                regel = regel.Substring(regel.IndexOf(" ") + 1);
+                                #region ReadWhite
+                                ForwardTillAfterWhitspace(ref regel);
+                                int witstamnummer = int.Parse(TillNextWhiteSpace(regel));
+                                ForwardTillAfterWhitspace(ref regel);
+                                string witspelerNaam = ReadName(ref regel);
+                                int witrating = int.Parse(TillNextWhiteSpace(regel));
+                                ForwardTillAfterWhitspace(ref regel);
+                                var white = spelers.ZoekSpeler(witstamnummer, witspelerNaam, witrating, clubThuis.ClubId, clubThuis.ClubName);
+                                #endregion
 
                                 int resultaat = ZoekResultaat(regel.Substring(0, regel.IndexOf(" ")));
-                                regel = regel.Substring(regel.IndexOf(" ") + 1);
+                                ForwardTillAfterWhitspace(ref regel);
 
-                                int zwartstamnummer = int.Parse(regel.Substring(0, regel.IndexOf(" ") + 1));
-                                regel = regel.Substring(regel.IndexOf(" ") + 1);
-                                string zwartspelerNaam = "";
-                                while (regel.Contains(' ') && !int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _))
-                                {
-                                    zwartspelerNaam += regel.Substring(0, regel.IndexOf(" "))+ " ";
-                                    regel = regel.Substring(regel.IndexOf(" ") + 1);
-                                }
+                                #region ReadBlack
+                                int zwartstamnummer = int.Parse(TillNextWhiteSpace(regel));
+                                ForwardTillAfterWhitspace(ref regel);
+                                string zwartspelerNaam = ReadName(ref regel);
                                 int zwartrating = int.Parse(regel);
+                                var black = spelers.ZoekSpeler(zwartstamnummer, zwartspelerNaam, zwartrating, clubUit.ClubId, clubUit.ClubName);
+                                #endregion
 
-                                partijen.PartijToevoegen(new Partij(bord, spelers.ZoekSpeler(witstamnummer, witspelerNaam, witrating),
-                                    spelers.ZoekSpeler(zwartstamnummer, zwartspelerNaam, zwartrating), clubThuis, clubUit, resultaat));
+
+                                if (board % 2 == 1)
+                                    partijen.PartijToevoegen(new Partij(board, white, black, clubThuis, clubUit, resultaat, round));
+                                else partijen.PartijToevoegen(new Partij(board, black, white, clubUit, clubThuis, SwapResult(resultaat), round));
 
                             }
                             #endregion
@@ -209,20 +206,42 @@ namespace Interclub
 
         }
 
+        private static string TillNextWhiteSpace(string regel)
+        {
+            return regel.Substring(0, regel.IndexOf(" ") + 1);
+        }
+
+        private static void ForwardTillAfterWhitspace(ref string regel)
+        {
+            regel = regel.Substring(regel.IndexOf(" ") + 1);
+
+        }
+
+        private static string ReadName(ref string regel)
+        {
+            string name = "";
+            while (regel.Contains(' ')&&!int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _))
+            {
+                name += regel.Substring(0, regel.IndexOf(" ")) + " ";
+                ForwardTillAfterWhitspace(ref regel);
+            }
+            return name;
+        }
+
         private static void AddGame(Partij partij, List<Club> club)
         {
-            var clubWit = club.Find(club => club.Id == partij.TeamWhite.Id);
-            if (!clubWit.Spelers.Contains(partij.White))
+            var clubWit = club.Find(club => club.Id == partij.TeamWhite.ClubId);
+            if (!clubWit.Players.Contains(partij.White))
             {
-                clubWit.Spelers.Add(partij.White);
+                clubWit.Players.Add(partij.White);
             }
             partij.White.Games.Add(new Partij(partij));
 
 
-            var clubZwart = club.Find(club => club.Id == partij.TeamBlack.Id);
-            if (!clubZwart.Spelers.Contains(partij.Black))
+            var clubZwart = club.Find(club => club.Id == partij.TeamBlack.ClubId);
+            if (!clubZwart.Players.Contains(partij.Black))
             {
-                clubZwart.Spelers.Add(partij.Black);
+                clubZwart.Players.Add(partij.Black);
             }
             partij.Black.Games.Add(new Partij(partij));
 
@@ -230,9 +249,9 @@ namespace Interclub
 
         private static void TryAddClub(Ploeg ploeg, List<Club> club)
         {
-            if (!club.Exists( club => club.Id == ploeg.Id))
-                club.Add(new Club { Name = ploeg.Naam, Id= ploeg.Id, Spelers = new List<Speler>() }) ;
-            
+            if (!club.Exists(club => club.Id == ploeg.ClubId))
+                club.Add(new Club { Name = ploeg.ClubName, Id = ploeg.ClubId, Players = new List<Speler>() });
+
         }
 
         static int ZoekResultaat(string resultaat)
@@ -246,11 +265,27 @@ namespace Interclub
             if (resultaat == "1F-0F")
                 return 4;
             if (resultaat == "0F-1F")
-                return 5;           
+                return 5;
 
             return 0;
 
         }
+
+        static int SwapResult(int result)
+        {
+            switch (result)
+            {
+                case 1: return 3;
+                case 2: return 2;
+                case 3: return 1;
+                case 4: return 5;
+                case 5: return 4;
+
+                default: return result;
+            }
+
+        }
+
     }
 }
 

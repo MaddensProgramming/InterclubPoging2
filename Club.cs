@@ -8,7 +8,7 @@ namespace Interclub
     {       
         public  int Id { get; set; }
         public string Name { get; set; }       
-        public List<Speler> Spelers { get; set; }
+        public List<Speler> Players { get; set; }
 
     }
 }

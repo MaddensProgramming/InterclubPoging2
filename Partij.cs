@@ -17,9 +17,10 @@ namespace Interclub
             TeamBlack = partij.TeamBlack;
             Board = partij.Board;
             Result = partij.Result;
+            Round = partij.Round;
         }
 
-        public Partij(int bord, Speler wit, Speler zwart, Ploeg clubWit, Ploeg clubZwart, int resultaat)
+        public Partij(int bord, Speler wit, Speler zwart, Ploeg clubWit, Ploeg clubZwart, int resultaat, int round)
         {
             White = wit;
             Black = zwart;
@@ -27,6 +28,7 @@ namespace Interclub
             TeamBlack = clubZwart;
             Result = resultaat;
             Board = bord;
+            Round = round;
         }
 
         public Speler White { get; set; }
@@ -34,6 +36,7 @@ namespace Interclub
         public Ploeg TeamWhite { get; set; }
         public Ploeg TeamBlack { get; set; }
         public int Board { get; set; }
+        public int Round { get; set; }
         public int Result { get; set; }
 
         public string ResultaatWeergeven()

@@ -246,11 +246,11 @@ namespace Interclub
         {
             var lijstwit = from partij in Alles
                            where partij.TeamWhite == ploeg
-                           select new { naam = partij.White.Naam, bord = partij.Board };
+                           select new { naam = partij.White.Name, bord = partij.Board };
 
             var lijstzwart = from partij in Alles
                              where partij.TeamBlack == ploeg
-                             select new { naam = partij.Black.Naam, bord = partij.Board };
+                             select new { naam = partij.Black.Name, bord = partij.Board };
 
 
 
@@ -279,12 +279,12 @@ namespace Interclub
             foreach (Speler speler in spelers2)
             {
 
-                Console.Write(speler.Naam + ": " + speler.Rating + "  " + speler.Score + "/" + speler.NumberOfGames + " TPR: " + speler.TPR + "\t Speelde op borden: ");
+                Console.Write(speler.Name + ": " + speler.Rating + "  " + speler.Score + "/" + speler.NumberOfGames + " TPR: " + speler.Tpr + "\t Speelde op borden: ");
                 foreach (var partij in lijstwit)
-                    if (partij.naam == speler.Naam)
+                    if (partij.naam == speler.Name)
                         Console.Write(partij.bord + ", ");
                 foreach (var partij in lijstzwart)
-                    if (partij.naam == speler.Naam)
+                    if (partij.naam == speler.Name)
                         Console.Write(partij.bord + ", ");
 
 

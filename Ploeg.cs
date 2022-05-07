@@ -8,15 +8,15 @@ namespace Interclub
     {
         public Ploeg(int clubnummer, string naam, int nummer, int klasse, string reeks)
         {
-            Id = clubnummer;
-            Naam = naam;
+            ClubId = clubnummer;
+            ClubName = naam;
             TeamNumber = nummer;
             Class = klasse;
             Division = reeks;
         }
 
-        public int Id { get; set; }
-        public string Naam { get; set; }
+        public int ClubId { get; set; }
+        public string ClubName { get; set; }
         public int TeamNumber { get; set; }
         public int Class { get; set; }
         public string Division { get; set; }
@@ -28,7 +28,7 @@ namespace Interclub
 
         public override string ToString()
         {
-            return Naam + " "+  TeamNumber; 
+            return ClubName + " "+  TeamNumber; 
         }
 
     }
