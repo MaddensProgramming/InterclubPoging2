@@ -34,21 +34,21 @@ namespace Interclub
             decimal punten = 0;
 
             var lijstwit = from partij in Alles
-                           where partij.Wit == speler
+                           where partij.White == speler
                            select partij;
             var lijstzwart = from partij in Alles
-                             where partij.Zwart == speler
+                             where partij.Black == speler
                              select partij;
 
             foreach (Partij partij in lijstwit)
             {
-                if (partij.Resultaat == 1) punten++;
-                if (partij.Resultaat == 2) punten += 0.5m;
+                if (partij.Result == 1 || partij.Result == 4) punten++;
+                if (partij.Result == 2) punten += 0.5m;
             }
             foreach (Partij partij in lijstzwart)
             {
-                if (partij.Resultaat == 3) punten++;
-                if (partij.Resultaat == 2) punten += 0.5m;
+                if (partij.Result == 3 || partij.Result == 5) punten++;
+                if (partij.Result == 2) punten += 0.5m;
             }
             aantalPartijen = lijstwit.Count() + lijstzwart.Count();
 
@@ -61,8 +61,8 @@ namespace Interclub
             int totaalpunten = 0;
             int aantalpartijen = 0;
             var teamwit = from partij in Alles
-                          where partij.ClubWit == team
-                          select partij.Wit.Rating;
+                          where partij.TeamWhite == team
+                          select partij.White.Rating;
 
 
             foreach (int rating in teamwit)
@@ -71,8 +71,8 @@ namespace Interclub
                 aantalpartijen++;
             }
             var teamzwart = from partij in Alles
-                            where partij.ClubZwart == team
-                            select partij.Zwart.Rating;
+                            where partij.TeamBlack == team
+                            select partij.Black.Rating;
 
 
             foreach (int rating in teamzwart)
@@ -95,21 +95,21 @@ namespace Interclub
             decimal punten = 0;
 
             var lijstwit = from partij in Alles
-                           where partij.Wit == speler
+                           where partij.White == speler
                            select partij;
             var lijstzwart = from partij in Alles
-                             where partij.Zwart == speler
+                             where partij.Black == speler
                              select partij;
 
             foreach (Partij partij in lijstwit)
             {
-                if (partij.Resultaat == 1) punten++;
-                if (partij.Resultaat == 2) punten += 0.5m;
+                if (partij.Result == 1 || partij.Result == 4) punten++;
+                if (partij.Result == 2) punten += 0.5m;
             }
             foreach (Partij partij in lijstzwart)
             {
-                if (partij.Resultaat == 3) punten++;
-                if (partij.Resultaat == 2) punten += 0.5m;
+                if (partij.Result == 3 || partij.Result == 5) punten++;
+                if (partij.Result == 2) punten += 0.5m;
             }
 
             return (int)Math.Round(punten / (lijstwit.Count() + lijstzwart.Count()) * 100);
@@ -132,19 +132,19 @@ namespace Interclub
             decimal rating = 0;
 
             var lijstwit = from partij in Alles
-                           where partij.Wit == speler
+                           where partij.White == speler
                            select partij;
             var lijstzwart = from partij in Alles
-                             where partij.Zwart == speler
+                             where partij.Black == speler
                              select partij;
 
             foreach (Partij partij in lijstwit)
             {
-                rating += partij.Zwart.Rating;
+                rating += partij.Black.Rating;
             }
             foreach (Partij partij in lijstzwart)
             {
-                rating += partij.Wit.Rating;
+                rating += partij.White.Rating;
             }
 
             return rating / ((decimal)(lijstwit.Count() + lijstzwart.Count()));
@@ -156,7 +156,7 @@ namespace Interclub
 
 
             var lijst = from partij in Alles
-                        where partij.Wit == speler || partij.Zwart == speler
+                        where partij.White == speler || partij.Black == speler
                         select partij;
 
             foreach (var partij in lijst)
@@ -235,22 +235,22 @@ namespace Interclub
         {
 
             var lijst = from partij in Alles
-                        where (partij.ClubWit == ploeg || partij.ClubZwart == ploeg) && partij.Bord == bord
+                        where (partij.TeamWhite == ploeg || partij.TeamBlack == ploeg) && partij.Board == bord
                         select partij;
 
             foreach (var partij in lijst)
-                Console.WriteLine(partij + " " + partij.ClubWit + "-" + partij.ClubZwart);
+                Console.WriteLine(partij + " " + partij.TeamWhite + "-" + partij.TeamBlack);
 
         }
         public void PloegOpstelling(Ploeg ploeg, Spelers spelersdata)
         {
             var lijstwit = from partij in Alles
-                           where partij.ClubWit == ploeg
-                           select new { naam = partij.Wit.Naam, bord = partij.Bord };
+                           where partij.TeamWhite == ploeg
+                           select new { naam = partij.White.Naam, bord = partij.Board };
 
             var lijstzwart = from partij in Alles
-                             where partij.ClubZwart == ploeg
-                             select new { naam = partij.Zwart.Naam, bord = partij.Bord };
+                             where partij.TeamBlack == ploeg
+                             select new { naam = partij.Black.Naam, bord = partij.Board };
 
 
 
@@ -278,8 +278,8 @@ namespace Interclub
 
             foreach (Speler speler in spelers2)
             {
-               
-                Console.Write(speler.Naam + ": " + speler.Rating + "  " + speler.Punten + "/" + speler.AantalPartijen + " TPR: " + speler.TPR + "\t Speelde op borden: ");
+
+                Console.Write(speler.Naam + ": " + speler.Rating + "  " + speler.Score + "/" + speler.NumberOfGames + " TPR: " + speler.TPR + "\t Speelde op borden: ");
                 foreach (var partij in lijstwit)
                     if (partij.naam == speler.Naam)
                         Console.Write(partij.bord + ", ");

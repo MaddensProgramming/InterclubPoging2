@@ -7,46 +7,44 @@ namespace Interclub
 {
     public class Partij
     {
-       
+
 
         public Partij(Partij partij)
         {
-            Wit = partij.Wit.ShallowCopy();
-            Zwart = partij.Zwart.ShallowCopy();
-            ClubWit = partij.ClubWit;
-            ClubZwart = partij.ClubZwart;
-            Bord = partij.Bord;
-            Resultaat = partij.Resultaat;
+            White = partij.White.ShallowCopy();
+            Black = partij.Black.ShallowCopy();
+            TeamWhite = partij.TeamWhite;
+            TeamBlack = partij.TeamBlack;
+            Board = partij.Board;
+            Result = partij.Result;
         }
 
-        public Partij(int bord,Speler wit, Speler zwart, Ploeg clubWit, Ploeg clubZwart, int resultaat)
+        public Partij(int bord, Speler wit, Speler zwart, Ploeg clubWit, Ploeg clubZwart, int resultaat)
         {
-            Wit = wit;
-            Zwart = zwart;
-            ClubWit = clubWit;
-            ClubZwart = clubZwart;
-            Resultaat = resultaat;
-            Bord = bord;
+            White = wit;
+            Black = zwart;
+            TeamWhite = clubWit;
+            TeamBlack = clubZwart;
+            Result = resultaat;
+            Board = bord;
         }
 
-        public Speler Wit { get; set; }
-        public Speler Zwart { get; set; }
-        public Ploeg ClubWit { get; set; }
-        public Ploeg ClubZwart { get; set; }
-        public int Bord { get; set; }
-        public int Resultaat { get; set; }
+        public Speler White { get; set; }
+        public Speler Black { get; set; }
+        public Ploeg TeamWhite { get; set; }
+        public Ploeg TeamBlack { get; set; }
+        public int Board { get; set; }
+        public int Result { get; set; }
 
         public string ResultaatWeergeven()
         {
-            switch (Resultaat)
+            switch (Result)
             {
-                case 1:
-                    return "1-0";
-                    
-                case 2:
-                    return "1/2-1/2";
-                    
+                case 1: return "1-0";
+                case 2: return "1/2-1/2";
                 case 3: return "0-1";
+                case 4: return "1-0F";
+                case 5: return "0-1F";
 
                 default: return "0-0";
             }
@@ -55,7 +53,7 @@ namespace Interclub
 
         public override string ToString()
         {
-            return Wit.ToString() + " " + ResultaatWeergeven() + " " + Zwart.ToString();
+            return White.ToString() + " " + ResultaatWeergeven() + " " + Black.ToString();
         }
 
     }

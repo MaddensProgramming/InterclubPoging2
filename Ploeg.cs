@@ -8,21 +8,18 @@ namespace Interclub
     {
         public Ploeg(int clubnummer, string naam, int nummer, int klasse, string reeks)
         {
-            Clubnummer = clubnummer;
+            Id = clubnummer;
             Naam = naam;
-            Nummer = nummer;
-            Klasse = klasse;
-            Reeks = reeks;
+            TeamNumber = nummer;
+            Class = klasse;
+            Division = reeks;
         }
 
-        public int Clubnummer { get; set; }
-
+        public int Id { get; set; }
         public string Naam { get; set; }
-
-        public int Nummer { get; set; }
-        public int Klasse { get; set; }
-        public string Reeks { get; set; }
-
+        public int TeamNumber { get; set; }
+        public int Class { get; set; }
+        public string Division { get; set; }
 
         public Ploeg ShallowCopy()
         {
@@ -31,7 +28,7 @@ namespace Interclub
 
         public override string ToString()
         {
-            return Naam + " "+  Nummer; 
+            return Naam + " "+  TeamNumber; 
         }
 
     }

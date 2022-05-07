@@ -19,7 +19,7 @@ namespace Interclub
         public void PrintAllePloegen() {
 
             var alfabetisch = from ploeg in Lijst
-                              orderby ploeg.Naam,ploeg.Nummer
+                              orderby ploeg.Naam,ploeg.TeamNumber
                               select ploeg;
             foreach (Ploeg ploeg in alfabetisch)
                 Console.WriteLine(ploeg);
@@ -29,7 +29,7 @@ namespace Interclub
         public Ploeg AddPloeg(int clubnummer, string clubnaam, int ploegnummer, int klasse, string reeks) {
 
             var zoekopdracht = from ploeg in Lijst
-                                       where (clubnummer == ploeg.Clubnummer) && (ploegnummer == ploeg.Nummer)
+                                       where (clubnummer == ploeg.Id) && (ploegnummer == ploeg.TeamNumber)
                                        select ploeg;
 
             if (zoekopdracht.Count() == 0)
@@ -54,7 +54,7 @@ namespace Interclub
         public Ploeg ZoekPloeg(string clubnaam, int ploegnummer) {
 
             var zoekopdracht = from ploeg in Lijst
-                               where (clubnaam == ploeg.Naam) && (ploegnummer == ploeg.Nummer)
+                               where (clubnaam == ploeg.Naam) && (ploegnummer == ploeg.TeamNumber)
                                select ploeg;
             return zoekopdracht.First();
         }

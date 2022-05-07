@@ -20,7 +20,7 @@ namespace Interclub
         public Speler ZoekSpeler(int stamnummer, string naam, int rating)
         {
             foreach (Speler item in Lijst)
-                if (item.Stamnummer == stamnummer)
+                if (item.Id == stamnummer)
                 {  return item; }
 
             Speler nieuweSpeler= new Speler(stamnummer,rating, naam);
@@ -43,7 +43,7 @@ namespace Interclub
         public Speler ZoekSpeler(int stamnummer)
         {
             foreach (Speler item in Lijst)
-                if (item.Stamnummer == stamnummer)
+                if (item.Id == stamnummer)
                 { return item; }
 
             
@@ -55,13 +55,13 @@ namespace Interclub
 
             VulGegevensIn(partijen);
             var lijst = from speler in Lijst
-                        orderby speler.TPR descending, speler.Punten descending
-                        where speler.AantalPartijen>3                      
+                        orderby speler.TPR descending, speler.Score descending
+                        where speler.NumberOfGames>3                      
                         select speler;
             int i = 1;
             foreach (Speler speler in lijst)
             {
-                Console.WriteLine(i + ". " + speler + ", " + speler.Rating + ": " + speler.Punten +"/" + speler.AantalPartijen + " TPR: " + speler.TPR);
+                Console.WriteLine(i + ". " + speler + ", " + speler.Rating + ": " + speler.Score +"/" + speler.NumberOfGames + " TPR: " + speler.TPR);
                 i++;
             }
 
@@ -72,9 +72,9 @@ namespace Interclub
 
             foreach (Speler speler in Lijst)
             {
-                speler.Punten = partijen.PrintPunten(speler, out int aantalPartijen);
+                speler.Score = partijen.PrintPunten(speler, out int aantalPartijen);
                 speler.TPR = partijen.TPR(speler);
-                speler.AantalPartijen = aantalPartijen;
+                speler.NumberOfGames = aantalPartijen;
             }
 
         }

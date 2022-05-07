@@ -129,7 +129,7 @@ namespace Interclub
                                 string witspelerNaam = "";
                                 while (!int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _))
                                 {
-                                    witspelerNaam += regel.Substring(0, regel.IndexOf(" "));
+                                    witspelerNaam += regel.Substring(0, regel.IndexOf(" "))+ " ";
                                     regel = regel.Substring(regel.IndexOf(" ") + 1);
                                 }
                                 int witrating = int.Parse(regel.Substring(0, regel.IndexOf(" ") + 1));
@@ -143,7 +143,7 @@ namespace Interclub
                                 string zwartspelerNaam = "";
                                 while (regel.Contains(' ') && !int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _))
                                 {
-                                    zwartspelerNaam += regel.Substring(0, regel.IndexOf(" "));
+                                    zwartspelerNaam += regel.Substring(0, regel.IndexOf(" "))+ " ";
                                     regel = regel.Substring(regel.IndexOf(" ") + 1);
                                 }
                                 int zwartrating = int.Parse(regel);
@@ -193,13 +193,6 @@ namespace Interclub
 
             partijen.Alles.ForEach(partij => AddGame(partij, club));
 
-
-
-
-
-
-
-
             var json = JsonSerializer.Serialize(club);
 
             //Console.WriteLine(json);
@@ -218,27 +211,27 @@ namespace Interclub
 
         private static void AddGame(Partij partij, List<Club> club)
         {
-            var clubWit = club.Find(club => club.Id == partij.ClubWit.Clubnummer);
-            if (!clubWit.Spelers.Contains(partij.Wit))
+            var clubWit = club.Find(club => club.Id == partij.TeamWhite.Id);
+            if (!clubWit.Spelers.Contains(partij.White))
             {
-                clubWit.Spelers.Add(partij.Wit);
+                clubWit.Spelers.Add(partij.White);
             }
-            partij.Wit.Partijen.Add(new Partij(partij));
+            partij.White.Games.Add(new Partij(partij));
 
 
-            var clubZwart = club.Find(club => club.Id == partij.ClubZwart.Clubnummer);
-            if (!clubZwart.Spelers.Contains(partij.Zwart))
+            var clubZwart = club.Find(club => club.Id == partij.TeamBlack.Id);
+            if (!clubZwart.Spelers.Contains(partij.Black))
             {
-                clubZwart.Spelers.Add(partij.Zwart);
+                clubZwart.Spelers.Add(partij.Black);
             }
-            partij.Zwart.Partijen.Add(new Partij(partij));
+            partij.Black.Games.Add(new Partij(partij));
 
         }
 
         private static void TryAddClub(Ploeg ploeg, List<Club> club)
         {
-            if (!club.Exists( club => club.Id == ploeg.Clubnummer))
-                club.Add(new Club { Name = ploeg.Naam, Id= ploeg.Clubnummer, Spelers = new List<Speler>() }) ;
+            if (!club.Exists( club => club.Id == ploeg.Id))
+                club.Add(new Club { Name = ploeg.Naam, Id= ploeg.Id, Spelers = new List<Speler>() }) ;
             
         }
 
@@ -250,6 +243,10 @@ namespace Interclub
                 return 2;
             if (resultaat == "0-1")
                 return 3;
+            if (resultaat == "1F-0F")
+                return 4;
+            if (resultaat == "0F-1F")
+                return 5;           
 
             return 0;
 
