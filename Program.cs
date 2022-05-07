@@ -190,14 +190,21 @@ namespace Interclub
 
             partijen.Alles.ForEach(partij => AddGame(partij, club));
 
-            var json = JsonSerializer.Serialize(club);
+            var serializeOptions = new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+               // WriteIndented = true
+            };
+            var jsonString = JsonSerializer.Serialize(club, serializeOptions);
+
+            
 
             //Console.WriteLine(json);
 
             FileStream fParameter = new FileStream("games.json", FileMode.Create, FileAccess.Write);
             StreamWriter m_WriterParameter = new StreamWriter(fParameter);
             m_WriterParameter.BaseStream.Seek(0, SeekOrigin.End);
-            m_WriterParameter.Write(json);
+            m_WriterParameter.Write(jsonString);
             m_WriterParameter.Flush();
             m_WriterParameter.Close();
 
