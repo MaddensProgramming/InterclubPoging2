@@ -11,9 +11,10 @@ namespace Interclub
             Stamnummer = stamnummer;
             Rating = rating;
             Naam = naam;
+            Partijen = new List<Partij>();
         }
 
-        public int Stamnummer{ get; set; }
+        public int Stamnummer { get; set; }
         public int Rating { get; set; }
         public string Naam { get; set; }
 
@@ -23,8 +24,14 @@ namespace Interclub
 
         public int TPR { get; set; }
 
+        public List<Partij> Partijen {get; set;}
 
-        
+        public Speler ShallowCopy()
+        {
+            var result = (Speler)MemberwiseClone();
+            result.Partijen = new List<Partij>();
+            return result;                
+        }        
 
         public override string ToString()
         {

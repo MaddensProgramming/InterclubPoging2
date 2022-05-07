@@ -7,6 +7,18 @@ namespace Interclub
 {
     public class Partij
     {
+       
+
+        public Partij(Partij partij)
+        {
+            Wit = partij.Wit.ShallowCopy();
+            Zwart = partij.Zwart.ShallowCopy();
+            ClubWit = partij.ClubWit;
+            ClubZwart = partij.ClubZwart;
+            Bord = partij.Bord;
+            Resultaat = partij.Resultaat;
+        }
+
         public Partij(int bord,Speler wit, Speler zwart, Ploeg clubWit, Ploeg clubZwart, int resultaat)
         {
             Wit = wit;

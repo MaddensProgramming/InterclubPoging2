@@ -3,20 +3,25 @@ using System.IO;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 
 namespace Interclub
 {
     public class Program
     {
         static void Main(string[] args)
+
         {
-            Ploegen database = new Ploegen();
+
+            string[] shitPloegen = new string[] { "2 FOUS DIOGENE", "2 Fous Diogène", "LE 666", "Le 666" };
+
+            Ploegen ploegen = new Ploegen();
             Spelers spelers = new Spelers();
             Partijen partijen = new Partijen();
 
-
-            for (int i = 1; i < 9; i++)
-                using (StreamReader reader = new StreamReader(@"C:\Users\User\Source\Repos\MaddensProgramming\InterclubPoging2\" + "ronde" + i + ".txt"))
+            #region Initialize data
+            for (int i = 1; i <= 11; i++)
+                using (StreamReader reader = new StreamReader("rondes/2021/ronde" + i + ".txt"))
                 {
                     string regel;
                     string reeks = "A";
@@ -52,26 +57,24 @@ namespace Interclub
 
                         if (regel.Length > 3)
                         {
-                            //ploegen inlezen
+                            #region Ploegen Inlezen
                             if (int.TryParse(regel.Substring(0, 3), out _) || regel.StartsWith("0 BYE"))
                             {
 
                                 clubthuisNummer = int.Parse(regel.Substring(0, regel.IndexOf(" ")));
                                 regel = regel.Substring(regel.IndexOf(" ") + 1);
                                 clubthuisNaam = "";
-                                if (regel.StartsWith("2 FOUS DIOGENE") || regel.StartsWith("LE 666"))
+
+                                if(shitPloegen.Any(name => regel.StartsWith(name))) 
                                 {
-                                    if (regel.StartsWith("2 FOUS DIOGENE"))
-                                        clubthuisNaam = "2 FOUS DIOGENE";
-                                    if (regel.StartsWith("LE 666"))
-                                        clubthuisNaam = "LE 666";
+                                    clubthuisNaam = shitPloegen.First(name => regel.StartsWith(name));
                                     regel = regel.Substring(clubthuisNaam.Length + 1);
                                 }
                                 else
                                 {
-                                    while (!int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _))
+                                    while (!int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _)&& !clubthuisNaam.StartsWith("BYE"))
                                     {
-                                        clubthuisNaam += regel.Substring(0, regel.IndexOf(" "));
+                                        clubthuisNaam += regel.Substring(0, regel.IndexOf(" ")) + " ";
                                         regel = regel.Substring(regel.IndexOf(" ") + 1);
                                     }
                                 }
@@ -84,20 +87,17 @@ namespace Interclub
                                 }
 
                                 clubuitNaam = "";
-                                if (regel.StartsWith("2 FOUS DIOGENE") || regel.StartsWith("LE 666"))
+                                if (shitPloegen.Any(name => regel.StartsWith(name)))
                                 {
-                                    if (regel.StartsWith("2 FOUS DIOGENE"))
-                                        clubuitNaam = "2 FOUS DIOGENE";
-                                    if (regel.StartsWith("LE 666"))
-                                        clubuitNaam = "LE 666";
+                                    clubuitNaam = shitPloegen.First(name => regel.StartsWith(name));
                                     regel = regel.Substring(clubuitNaam.Length + 1);
                                 }
                                 else
                                 {
 
-                                    while (regel.Contains(' ') && !int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _))
+                                    while (regel.Contains(' ') && !int.TryParse(regel.Substring(0, regel.IndexOf(" ")), out _) && !clubuitNaam.StartsWith("BYE"))
                                     {
-                                        clubuitNaam += regel.Substring(0, regel.IndexOf(" "));
+                                        clubuitNaam += regel.Substring(0, regel.IndexOf(" "))+ " ";
                                         regel = regel.Substring(regel.IndexOf(" ") + 1);
                                     }
                                 }
@@ -113,12 +113,13 @@ namespace Interclub
 
                                 clubuitNummer = int.Parse(regel);
 
-                                clubThuis = database.AddPloeg(clubthuisNummer, clubthuisNaam, clubthuisPloegNummer, klasse, reeks);
-                                clubUit = database.AddPloeg(clubuitNummer, clubuitNaam, clubuitPloegNummer, klasse, reeks);
+                                clubThuis = ploegen.AddPloeg(clubthuisNummer, clubthuisNaam, clubthuisPloegNummer, klasse, reeks);
+                                clubUit = ploegen.AddPloeg(clubuitNummer, clubuitNaam, clubuitPloegNummer, klasse, reeks);
 
                             }
-                            //Partijen inlezen
+                            #endregion
 
+                            #region Partijen Inlezen
                             if (int.TryParse(regel.Substring(0, 1), out bord) && bord != 0 && regel.IndexOf(" ") == 1)
                             {
 
@@ -147,29 +148,17 @@ namespace Interclub
                                 }
                                 int zwartrating = int.Parse(regel);
 
-                                partijen.PartijToevoegen(new Partij(bord,spelers.ZoekSpeler(witstamnummer, witspelerNaam, witrating),
+                                partijen.PartijToevoegen(new Partij(bord, spelers.ZoekSpeler(witstamnummer, witspelerNaam, witrating),
                                     spelers.ZoekSpeler(zwartstamnummer, zwartspelerNaam, zwartrating), clubThuis, clubUit, resultaat));
 
-
-
-
-
                             }
+                            #endregion
                         }
-
-
 
                     }
 
-
-
-
-
-
-
                 }
-
-
+            #endregion
 
 
             //spelers.PrintTalenten(partijen);
@@ -195,23 +184,75 @@ namespace Interclub
 
 
             spelers.VulGegevensIn(partijen);
-            partijen.PloegOpstelling(database.ZoekPloeg("JEANJAURES", 2),spelers);
 
-            
+            //partijen.PloegOpstelling(database.ZoekPloeg("JEANJAURES", 2),spelers);           
+
+            var club = new List<Club>();
+
+            ploegen.Lijst.ForEach(ploeg => TryAddClub(ploeg, club));
+
+            partijen.Alles.ForEach(partij => AddGame(partij, club));
 
 
-            static int ZoekResultaat(string resultaat)
+
+
+
+
+
+
+            var json = JsonSerializer.Serialize(club);
+
+            //Console.WriteLine(json);
+
+            FileStream fParameter = new FileStream("games.json", FileMode.Create, FileAccess.Write);
+            StreamWriter m_WriterParameter = new StreamWriter(fParameter);
+            m_WriterParameter.BaseStream.Seek(0, SeekOrigin.End);
+            m_WriterParameter.Write(json);
+            m_WriterParameter.Flush();
+            m_WriterParameter.Close();
+
+            Console.ReadLine();
+
+
+        }
+
+        private static void AddGame(Partij partij, List<Club> club)
+        {
+            var clubWit = club.Find(club => club.Id == partij.ClubWit.Clubnummer);
+            if (!clubWit.Spelers.Contains(partij.Wit))
             {
-                if (resultaat == "1-0")
-                    return 1;
-                if (resultaat == "½-½")
-                    return 2;
-                if (resultaat == "0-1")
-                    return 3;
-
-                return 0;
-
+                clubWit.Spelers.Add(partij.Wit);
             }
+            partij.Wit.Partijen.Add(new Partij(partij));
+
+
+            var clubZwart = club.Find(club => club.Id == partij.ClubZwart.Clubnummer);
+            if (!clubZwart.Spelers.Contains(partij.Zwart))
+            {
+                clubZwart.Spelers.Add(partij.Zwart);
+            }
+            partij.Zwart.Partijen.Add(new Partij(partij));
+
+        }
+
+        private static void TryAddClub(Ploeg ploeg, List<Club> club)
+        {
+            if (!club.Exists( club => club.Id == ploeg.Clubnummer))
+                club.Add(new Club { Name = ploeg.Naam, Id= ploeg.Clubnummer, Spelers = new List<Speler>() }) ;
+            
+        }
+
+        static int ZoekResultaat(string resultaat)
+        {
+            if (resultaat == "1-0")
+                return 1;
+            if (resultaat == "½-½")
+                return 2;
+            if (resultaat == "0-1")
+                return 3;
+
+            return 0;
+
         }
     }
 }
@@ -219,4 +260,4 @@ namespace Interclub
 
 
 
-       
+

@@ -24,6 +24,11 @@ namespace Interclub
         public string Reeks { get; set; }
 
 
+        public Ploeg ShallowCopy()
+        {
+            return (Ploeg)MemberwiseClone();          
+        }
+
         public override string ToString()
         {
             return Naam + " "+  Nummer; 
