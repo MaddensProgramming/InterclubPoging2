@@ -158,31 +158,7 @@ namespace Interclub
             #endregion
 
 
-            //spelers.PrintTalenten(partijen);
-
-            /*decimal totaal = 0;
-
-            var onzeReeks = from ploeg in database.Lijst
-                            where ploeg.Reeks == "A" && ploeg.Klasse == 2
-                            select ploeg;
-
-            foreach (var team in onzeReeks)
-            {
-                totaal += partijen.GemiddeldeElo(team);
-                Console.WriteLine(team.ToString() + ": " + partijen.GemiddeldeElo(team));   
-                    }
-            Console.WriteLine("A: " + totaal / 12);
-             totaal = 0;
-             */
-
-
-
-            //spelers.PrintTalenten(partijen);
-
-
-            spelers.VulGegevensIn(partijen);
-
-            //partijen.PloegOpstelling(database.ZoekPloeg("JEANJAURES", 2),spelers);           
+            spelers.VulGegevensIn(partijen);                   
 
             var club = new List<Club>();
 
@@ -273,6 +249,8 @@ namespace Interclub
                 return 4;
             if (resultaat == "0F-1F")
                 return 5;
+            if (resultaat == "0F-0F")
+                return 6;
 
             return 0;
 
@@ -287,6 +265,7 @@ namespace Interclub
                 case 3: return 1;
                 case 4: return 5;
                 case 5: return 4;
+                case 6: return 6;
 
                 default: return result;
             }
