@@ -9,29 +9,23 @@ namespace Interclub
     {
         public Partijen()
         {
-            Alles = new List<Partij>();
+            Alles = new List<Game>();
         }
 
-        public List<Partij> Alles { get; set; }
+        public List<Game> Alles { get; set; }
 
 
-        public void PartijToevoegen(Partij partij)
+        public void PartijToevoegen(Game partij)
         {
-            this.Alles.Add(partij);
-        }
+            Alles.Add(partij);
+        }      
 
-        public void PrintAlles()
+        public int ScorePercentage(Speler speler, out int numberOfGames, out decimal punten)
         {
-            foreach (Partij partij in Alles)
-                Console.WriteLine(partij);
-
-        }
 
 
-
-        public decimal PrintPunten(Speler speler, out int aantalPartijen)
-        {
-            decimal punten = 0;
+            punten = 0;
+            numberOfGames = 0;
 
             var lijstwit = from partij in Alles
                            where partij.White == speler
@@ -40,79 +34,35 @@ namespace Interclub
                              where partij.Black == speler
                              select partij;
 
-            foreach (Partij partij in lijstwit)
+            foreach (Game partij in lijstwit)
             {
-                if (partij.Result == 1 || partij.Result == 4) punten++;
-                if (partij.Result == 2) punten += 0.5m;
+               switch (partij.Result)
+                {
+                    case 1: punten++; numberOfGames++;
+                        break;
+                    case 2: punten += 0.5M; numberOfGames++;
+                        break;
+                    case 3: numberOfGames++;
+                        break;                    
+                }
             }
-            foreach (Partij partij in lijstzwart)
+            foreach (Game partij in lijstzwart)
             {
-                if (partij.Result == 3 || partij.Result == 5) punten++;
-                if (partij.Result == 2) punten += 0.5m;
+                switch (partij.Result)
+                {
+                    case 1:
+                        numberOfGames++;
+                        break;
+                    case 2:
+                        punten += 0.5M; numberOfGames++;
+                        break;
+                    case 3:
+                        numberOfGames++; punten++;
+                        break;
+                }
             }
-            aantalPartijen = lijstwit.Count() + lijstzwart.Count();
-
-            return punten;
-
-        }
-
-        public decimal GemiddeldeElo(Ploeg team)
-        {
-            int totaalpunten = 0;
-            int aantalpartijen = 0;
-            var teamwit = from partij in Alles
-                          where partij.TeamWhite == team
-                          select partij.White.Rating;
-
-
-            foreach (int rating in teamwit)
-            {
-                totaalpunten += rating;
-                aantalpartijen++;
-            }
-            var teamzwart = from partij in Alles
-                            where partij.TeamBlack == team
-                            select partij.Black.Rating;
-
-
-            foreach (int rating in teamzwart)
-            {
-                totaalpunten += rating;
-                aantalpartijen++;
-            }
-
-            return Math.Round(((decimal)totaalpunten / ((decimal)aantalpartijen)));
-
-
-
-
-        }
-
-        public int ScorePercentage(Speler speler)
-        {
-
-
-            decimal punten = 0;
-
-            var lijstwit = from partij in Alles
-                           where partij.White == speler
-                           select partij;
-            var lijstzwart = from partij in Alles
-                             where partij.Black == speler
-                             select partij;
-
-            foreach (Partij partij in lijstwit)
-            {
-                if (partij.Result == 1 || partij.Result == 4) punten++;
-                if (partij.Result == 2) punten += 0.5m;
-            }
-            foreach (Partij partij in lijstzwart)
-            {
-                if (partij.Result == 3 || partij.Result == 5) punten++;
-                if (partij.Result == 2) punten += 0.5m;
-            }
-
-            return (int)Math.Round(punten / (lijstwit.Count() + lijstzwart.Count()) * 100);
+            if (numberOfGames == 0) return 0;
+            return (int)Math.Round(punten / (numberOfGames) * 100); 
 
 
         }
@@ -120,17 +70,18 @@ namespace Interclub
 
         public int TPR(Speler speler)
         {
+            var percentage = ScorePercentage(speler, out int numberOfGames, out decimal punten);
 
-
-            return (int)GemiddeldeEloTegenstander(speler) + BerekenPrestatie(ScorePercentage(speler));
+            if (numberOfGames == 0) return 0;
+            return (int)GemiddeldeEloTegenstander(speler) + GetTpr(percentage);
 
         }
 
         public decimal GemiddeldeEloTegenstander(Speler speler)
         {
 
-            decimal rating = 0;
 
+            decimal rating = 0;
             var lijstwit = from partij in Alles
                            where partij.White == speler
                            select partij;
@@ -138,11 +89,11 @@ namespace Interclub
                              where partij.Black == speler
                              select partij;
 
-            foreach (Partij partij in lijstwit)
+            foreach (Game partij in lijstwit)
             {
                 rating += partij.Black.Rating;
             }
-            foreach (Partij partij in lijstzwart)
+            foreach (Game partij in lijstzwart)
             {
                 rating += partij.White.Rating;
             }
@@ -151,21 +102,7 @@ namespace Interclub
 
         }
 
-        public void PrintPartijen(Speler speler)
-        {
-
-
-            var lijst = from partij in Alles
-                        where partij.White == speler || partij.Black == speler
-                        select partij;
-
-            foreach (var partij in lijst)
-                Console.WriteLine(partij);
-
-
-        }
-
-        public static int BerekenPrestatie(int percentage)
+        public static int GetTpr(int percentage)
         {
             switch (percentage)
             {
@@ -220,81 +157,11 @@ namespace Interclub
                 case 48: return -14;
                 case 49: return -7;
                 case 50: return 0;
-                default: return -1 * BerekenPrestatie(100 - percentage);
+                default: return -1 * GetTpr(100 - percentage);
 
 
             }
-
-
-
-
-        }
-
-
-        public void ZoekTegenstander(Ploeg ploeg, int bord)
-        {
-
-            var lijst = from partij in Alles
-                        where (partij.TeamWhite == ploeg || partij.TeamBlack == ploeg) && partij.Board == bord
-                        select partij;
-
-            foreach (var partij in lijst)
-                Console.WriteLine(partij + " " + partij.TeamWhite + "-" + partij.TeamBlack);
-
-        }
-        public void PloegOpstelling(Ploeg ploeg, Spelers spelersdata)
-        {
-            var lijstwit = from partij in Alles
-                           where partij.TeamWhite == ploeg
-                           select new { naam = partij.White.Name, bord = partij.Board };
-
-            var lijstzwart = from partij in Alles
-                             where partij.TeamBlack == ploeg
-                             select new { naam = partij.Black.Name, bord = partij.Board };
-
-
-
-
-
-            List<Speler> spelers = new List<Speler>();
-
-            foreach (var partij in lijstwit)
-            {
-                Speler lid = spelersdata.ZoekSpeler(partij.naam);
-                if (!spelers.Contains(lid))
-                    spelers.Add(lid);
-            }
-            foreach (var partij in lijstzwart)
-            {
-                Speler lid = spelersdata.ZoekSpeler(partij.naam);
-                if (!spelers.Contains(lid))
-                    spelers.Add(lid);
-            }
-
-            var spelers2 = from speler in spelers
-                           orderby speler.Rating descending
-                           select speler;
-
-
-            foreach (Speler speler in spelers2)
-            {
-
-                Console.Write(speler.Name + ": " + speler.Rating + "  " + speler.Score + "/" + speler.NumberOfGames + " TPR: " + speler.Tpr + "\t Speelde op borden: ");
-                foreach (var partij in lijstwit)
-                    if (partij.naam == speler.Name)
-                        Console.Write(partij.bord + ", ");
-                foreach (var partij in lijstzwart)
-                    if (partij.naam == speler.Name)
-                        Console.Write(partij.bord + ", ");
-
-
-
-                Console.WriteLine();
-
-            }
-
-
-        }
+        }     
 
     }
 }

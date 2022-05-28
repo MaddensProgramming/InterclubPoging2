@@ -5,22 +5,22 @@ using System.Linq;
 
 namespace Interclub
 {
-    public class Partij
+    public class Game
     {
 
 
-        public Partij(Partij partij)
+        public Game(Game partij)
         {
             White = partij.White.ShallowCopy();
             Black = partij.Black.ShallowCopy();
-            TeamWhite = partij.TeamWhite;
-            TeamBlack = partij.TeamBlack;
+            TeamWhite = partij.TeamWhite.ShallowCopy();
+            TeamBlack = partij.TeamBlack.ShallowCopy();
             Board = partij.Board;
             Result = partij.Result;
             Round = partij.Round;
         }
 
-        public Partij(int bord, Speler wit, Speler zwart, Ploeg clubWit, Ploeg clubZwart, int resultaat, int round)
+        public Game(int bord, Speler wit, Speler zwart, Team clubWit, Team clubZwart, int resultaat, int round)
         {
             White = wit;
             Black = zwart;
@@ -33,8 +33,8 @@ namespace Interclub
 
         public Speler White { get; set; }
         public Speler Black { get; set; }
-        public Ploeg TeamWhite { get; set; }
-        public Ploeg TeamBlack { get; set; }
+        public Team TeamWhite { get; set; }
+        public Team TeamBlack { get; set; }
         public int Board { get; set; }
         public int Round { get; set; }
         public int Result { get; set; }
@@ -52,6 +52,15 @@ namespace Interclub
                 default: return "0-0";
             }
 
+        }
+        public Game RemoveGamesFromPlayer(){
+            var game =(Game) MemberwiseClone();
+            game.White = game.White.ShallowCopy();
+            game.Black = game.Black.ShallowCopy();
+            game.TeamBlack = game.TeamBlack.ShallowCopy();
+            game.TeamWhite = game.TeamWhite.ShallowCopy();
+            return game;
+        
         }
 
         public override string ToString()

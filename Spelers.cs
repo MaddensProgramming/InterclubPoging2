@@ -17,17 +17,21 @@ namespace Interclub
             Lijst.Add(speler);
         }
 
-        public Speler ZoekSpeler(int stamnummer, string naam, int rating, int clubId, string clubName)
+        public Speler ZoekSpeler(int stamnummer, string naam , int rating, int clubId, string clubName)
         {
             foreach (Speler item in Lijst)
                 if (item.Id == stamnummer)
                 {  return item; }
 
-            Speler nieuweSpeler= new Speler(stamnummer,rating, naam,clubId, clubName);
+            var namen = naam.Split(',');
+
+
+            Speler nieuweSpeler= new Speler(stamnummer,rating, namen[1].Trim(), namen[0] , clubId, clubName);
             SpelerToevoegen(nieuweSpeler);
             return nieuweSpeler;            
 
         }
+
 
         public Speler ZoekSpeler(string naam) {
 
@@ -40,39 +44,14 @@ namespace Interclub
 
         }
 
-        public Speler ZoekSpeler(int stamnummer)
-        {
-            foreach (Speler item in Lijst)
-                if (item.Id == stamnummer)
-                { return item; }
-
-            
-            return null;
-
-        }
-
-        public void PrintTalenten(Partijen partijen) {
-
-            VulGegevensIn(partijen);
-            var lijst = from speler in Lijst
-                        orderby speler.Tpr descending, speler.Score descending
-                        where speler.NumberOfGames>3                      
-                        select speler;
-            int i = 1;
-            foreach (Speler speler in lijst)
-            {
-                Console.WriteLine(i + ". " + speler + ", " + speler.Rating + ": " + speler.Score +"/" + speler.NumberOfGames + " TPR: " + speler.Tpr);
-                i++;
-            }
-
-
-        }
+    
 
         public void VulGegevensIn(Partijen partijen) {
 
             foreach (Speler speler in Lijst)
             {
-                speler.Score = partijen.PrintPunten(speler, out int aantalPartijen);
+                partijen.ScorePercentage(speler, out int aantalPartijen, out decimal punten);
+                speler.Score = punten;
                 speler.Tpr = partijen.TPR(speler);
                 speler.NumberOfGames = aantalPartijen;
             }

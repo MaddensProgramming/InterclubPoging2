@@ -4,31 +4,36 @@ using System.Text;
 
 namespace Interclub
 {
-    public class Ploeg
+    public class Team
     {
-        public Ploeg(int clubnummer, string naam, int nummer, int klasse, string reeks)
+        public Team(int clubnummer, string naam, int nummer, int klasse, string reeks)
         {
             ClubId = clubnummer;
             ClubName = naam;
-            TeamNumber = nummer;
+            Id = nummer;
             Class = klasse;
             Division = reeks;
+            Rounds = new List<Round>();
         }
 
         public int ClubId { get; set; }
         public string ClubName { get; set; }
-        public int TeamNumber { get; set; }
+        public int Id { get; set; }
         public int Class { get; set; }
         public string Division { get; set; }
+        public List<Round> Rounds { get; set; }
 
-        public Ploeg ShallowCopy()
+        public Team ShallowCopy()
         {
-            return (Ploeg)MemberwiseClone();          
+            var team = (Team)MemberwiseClone();
+            team.Rounds = new List<Round>();
+            return team;
+            
         }
 
         public override string ToString()
         {
-            return ClubName + " "+  TeamNumber; 
+            return ClubName + " "+  Id; 
         }
 
     }

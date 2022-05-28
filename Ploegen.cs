@@ -9,33 +9,33 @@ namespace Interclub
     {
         public Ploegen()
         {
-            Lijst = new List<Ploeg>();
+            Lijst = new List<Team>();
         }
 
-        public List<Ploeg> Lijst { get; set; }
+        public List<Team> Lijst { get; set; }
 
 
 
         public void PrintAllePloegen() {
 
             var alfabetisch = from ploeg in Lijst
-                              orderby ploeg.ClubName,ploeg.TeamNumber
+                              orderby ploeg.ClubName,ploeg.Id
                               select ploeg;
-            foreach (Ploeg ploeg in alfabetisch)
+            foreach (Team ploeg in alfabetisch)
                 Console.WriteLine(ploeg);
         
         }
 
-        public Ploeg AddPloeg(int clubnummer, string clubnaam, int ploegnummer, int klasse, string reeks) {
+        public Team AddPloeg(int clubnummer, string clubnaam, int ploegnummer, int klasse, string reeks) {
 
             var zoekopdracht = from ploeg in Lijst
-                                       where (clubnummer == ploeg.ClubId) && (ploegnummer == ploeg.TeamNumber)
+                                       where (clubnummer == ploeg.ClubId) && (ploegnummer == ploeg.Id)
                                        select ploeg;
 
             if (zoekopdracht.Count() == 0)
             {
 
-                Ploeg terug = new Ploeg(clubnummer, clubnaam, ploegnummer, klasse, reeks);
+                Team terug = new Team(clubnummer, clubnaam, ploegnummer, klasse, reeks);
                 Lijst.Add(terug);
                 return terug;
 
@@ -51,10 +51,10 @@ namespace Interclub
         }
 
 
-        public Ploeg ZoekPloeg(string clubnaam, int ploegnummer) {
+        public Team ZoekPloeg(string clubnaam, int ploegnummer) {
 
             var zoekopdracht = from ploeg in Lijst
-                               where (clubnaam == ploeg.ClubName) && (ploegnummer == ploeg.TeamNumber)
+                               where (clubnaam == ploeg.ClubName) && (ploegnummer == ploeg.Id)
                                select ploeg;
             return zoekopdracht.First();
         }

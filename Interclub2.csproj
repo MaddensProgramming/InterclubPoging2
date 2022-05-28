@@ -6,61 +6,70 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="rondes\2020\ronde1.txt">
+    <None Update="Rounds\2020\ronde1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2020\ronde2.txt">
+    <None Update="Rounds\2020\ronde2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2020\ronde3.txt">
+    <None Update="Rounds\2020\ronde3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2020\ronde4.txt">
+    <None Update="Rounds\2020\ronde4.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2020\ronde5.txt">
+    <None Update="Rounds\2020\ronde5.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2020\ronde6.txt">
+    <None Update="Rounds\2020\ronde6.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2020\ronde7.txt">
+    <None Update="Rounds\2020\ronde7.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2020\ronde8.txt">
+    <None Update="Rounds\2020\ronde9.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2021\ronde10.txt">
+    <None Update="Rounds\2020\ronde11.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2021\ronde11.txt">
+    <None Update="Rounds\2020\ronde10.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2021\ronde2 .txt">
+    <None Update="Rounds\2020\ronde8.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2021\ronde1.txt">
+    <None Update="Rounds\2021\ronde10.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2021\ronde3.txt">
+    <None Update="Rounds\2021\ronde11.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2021\ronde4.txt">
+    <None Update="Rounds\2021\ronde2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2021\ronde5.txt">
+    <None Update="Rounds\2021\ronde1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2021\ronde6.txt">
+    <None Update="Rounds\2021\ronde3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2021\ronde7.txt">
+    <None Update="Rounds\2021\ronde4.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2021\ronde8.txt">
+    <None Update="Rounds\2021\ronde5.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="rondes\2021\ronde9.txt">
+    <None Update="Rounds\2021\ronde6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Rounds\2021\ronde7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Rounds\2021\ronde8.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Rounds\2021\ronde9.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

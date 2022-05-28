@@ -6,23 +6,25 @@ namespace Interclub
 {
     public class Speler
     {
-        public Speler(int stamnummer, int rating, string naam, int clubId, string clubName)
+        public Speler(int stamnummer, int rating, string firstName, string lastName, int clubId, string clubName)
         {
             Id = stamnummer;
             Rating = rating;
-            Name = naam;
+            FirstName = firstName;
+            Name = lastName;
             ClubId = clubId;
             ClubName = clubName;
-            Games = new List<Partij>();
+            Games = new List<Game>();
         }
 
         public int Id { get; set; }
         public string Name { get; set; }
-        public int Rating { get; set; }
+        public string FirstName { get; set; }
+        public int Rating { get; set; }        
         public int Tpr { get; set; }        
         public decimal Score { get; set; }
         public int NumberOfGames { get; set; }    
-        public List<Partij> Games {get; set;}        
+        public List<Game> Games {get; set;}        
         public int ClubId { get; set; }
         public string ClubName { get; set; }
 
@@ -30,7 +32,7 @@ namespace Interclub
         public Speler ShallowCopy()
         {
             var result = (Speler)MemberwiseClone();
-            result.Games = new List<Partij>();
+            result.Games = new List<Game>();
             return result;                
         }        
 

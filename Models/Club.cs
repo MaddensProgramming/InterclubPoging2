@@ -10,5 +10,7 @@ namespace Interclub
         public string Name { get; set; }       
         public List<Speler> Players { get; set; }
 
+        public List<Team> Teams { get; set; }
+
     }
 }
