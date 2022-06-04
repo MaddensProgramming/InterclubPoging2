@@ -1,0 +1,1296 @@
+﻿Afdeling: 1 Serie: A
+601 CRELEL 1 Jean Jaurès 1 402
+1 81086 Chabanon, Jean-Luc 2516 0-1 99627 Ikonnikov, Vyacheslav 2527
+2 20028 Hovhannisyan, Mher 2515 ½-½ 20354 Draftian, Ashote 2327
+3 71757 Godart, Francois 2404 ½-½ 52191 Bezemer, Arno 2305
+4 47732 Soors, Stef 2402 1-0 50881 Tiggelman, Rene 2268
+5 39012 Sarrau, Jelle 2398 1-0 15081 Hovenga, Alje 2232
+6 70581 Vandevoort, Pascal 2397 1-0 15782 Lopez, Jasel 2208
+7 15697 Lai, Hing Ting 2334 1-0 24601 Groffen, Hans 2186
+8 3003 Lenaerts, Lennert 2225 1-0 26638 Ghysels, Chris 2099
+< 2399 > 6 - 2 < 2269 >
+Afdeling: 1 Serie: A
+901 Namur 1 Wirtzfeld 1 627
+1 10252 Alienkin, Aleksander 2394 ½-½ 55107 Winants, Luc 2570
+2 50233 Laurent, Julien 2246 0-1 98604 Hoffmann, Michael 2482
+3 10483 Fontaine, Quentin 2207 0-1 96032 Popovic, Petar 2451
+4 66150 Bolzoni, Victor-Angel 2206 0-1 91367 Gulbas, Cemil 2377
+5 76929 Denayer, Eric 2197 0-1 67385 Boidman, Yuri 2342
+6 59625 Henris, Luc 2178 0-1 14351 Winterberg, Lukas 2311
+7 63011 Uhoda, Philippe 2127 ½-½ 67822 Brittner, Serge 2302
+8 60296 Hafner, Christian 2091 0-1 78778 Gengler, Pierre 2265
+< 2206 > 1 - 7 < 2388 >
+Afdeling: 1 Serie: A
+604 KSK47-Eynatten 1 KGSRL 1 401
+1 96784 Hausrath, Daniel 2505 ½-½ 95249 Van Wely, Loek 2633
+2 95885 Swinkels, Robin 2497 ½-½ 10717 Edouard, Romain 2630
+3 98736 Koch, Thomas 2467 ½-½ 40045 Michiels, Bart 2533
+4 14827 Stark, Lars 2433 0-1 15625 Pijpers, Arthur 2444
+5 98663 Roeder, Mathias 2411 ½-½ 10464 Van Haastert, Edwin 2429
+6 99597 Sielecki, Christof 2407 0-1 50273 Bitalzadeh, Ali 2400
+7 98981 Hammes, Michael 2390 0-1 44504 Van Der Stricht, Geert 2378
+8 95067 Becker, Marcel 2382 ½-½ 35572 Vanheirzeele, Daniel 2142
+< 2437 > 2.5 - 5.5 < 2449 >
+Afdeling: 1 Serie: A
+209 TBCC 1 Amay 1 618
+1 97209 Beeckmans, Felix 2320 ½-½ 50240 Bok, Benjamin 2586
+2 1686 De Wit, Michel 2270 0-1 60243 Burg, Twan 2509
+3 15617 Pel, Bonno 2264 0-1 94331 Zaragatski, Ilija 2461
+4 12255 Rihouay, Clement 2229 0-1 50272 Tan, Matthew 2445
+5 841 Tonoli, Walter 2202 ½-½ 10763 Broekmeulen, Jasper 2395
+6 12278 Spaan, Nathanael 2150 0-1 61913 Buscher, Michael 2393
+7 5690 Ackaert, Thierry 2086 1-0 71790 Noiroux, Kevin 2203
+8 67032 Draidi, Ahmed 2052 0-1 63053 Memeti, Kastriot 2197
+< 2197 > 2 - 6 < 2399 >
+Afdeling: 1 Serie: A
+607 KSK Rochade 1 Borgerhout 1 109
+1 95281 Feygin, Michael 2446 ½-½ 49069 Docx, Stefan 2469
+2 94269 Fiebig, Thomas 2432 1-0 15691 Bekker, Stefan 2321
+3 25836 Vandenbussche, Thibaut 2431 ½-½ 18066 Wemmers, Xander 2320
+4 50214 Coenen, Michael 2430 0-1 15689 Offringa, Joost 2274
+5 10220 Miedema, David 2370 0-1 23370 Diepeveen, Vincent 2273
+6 95011 Kalka Arkadius, Georg 2367 0-1 10448 De Haan, Eric 2271
+7 345 Meessen, Rudolf 2305 ½-½ 14209 Hommerson, Paul 2270
+8 98574 Klein, Felix 2304 1-0 11501 Veltkamp, Gerben 2189
+< 2386 > 3.5 - 4.5 < 2298 >
+Afdeling: 1 Serie: A
+514 Fontaine 1 KBSK 1 303
+1 14194 Tregubov, Pavel 2597 ½-½ 14862 Van Foreest, Jorden 2514
+2 95042 Orlov, Andrey 2489 0-1 10391 Geirnaert, Steven 2466
+3 60369 Capone, Nicola 2398 0-1 35181 Leenhouts, Koen 2422
+4 75655 Cekro, Ekrem 2392 1-0 44954 Maenhout, Thibaut 2380
+5 50211 Marechal, Andy 2334 1-0 25615 Decoster, Frederic 2345
+6 73059 Claesen, Pieter 2325 ½-½ 51861 Piceu, Tom 2344
+7 70823 Wantiez, Fabrice 2322 1-0 10430 Verlinde, Tieme 2286
+8 63614 Houriez, Clement 2321 ½-½ 51551 Donovan, Linton 2280
+< 2397 > 4.5 - 3.5 < 2380 >
+Afdeling: 2 Serie: A
+462 Zottegem 1 Hoboken 1 130
+1 11789 Roos, David 2145 0-1 20214 Dardha, Arben 2362
+2 52701 Ghysels, Marc 2112 1-0 80403 Cools, Gorik 2352
+3 19267 Saligo, Luc 2111 1-0 46442 Maes, Wim 2307
+4 16144 Mannaert, Erwin 1997 ½-½ 21814 De Weerd, Jan 2141
+5 25933 De Weird, Matthias 1996 ½-½ 13815 Dardha, Daniel 2140
+6 29599 Vandenbroucke, Tim 1995 ½-½ 11681 Van Damme, Henri 2023
+7 33316 Verstraeten, Jan 1994 1-0 45420 Vande Velde, Erik 2022
+8 42960 Vermeulen, Frank 1860 1-0 62766 Verrijken, Geert 2011
+< 2026 > 5.5 - 2.5 < 2170 >
+Afdeling: 2 Serie: A
+166 TSM 1 KOSK 1 301
+1 12424 De Wachter, Mathias 2290 1-0 1759 Bouhallel, Rabah 2345
+2 67946 Boeykens, Marc 2195 1-0 43648 Timmerman Gert, Jan 2213
+3 19224 De Coninck, Rafael 2173 ½-½ 55999 Demarcke, Dirk 2212
+4 36323 Gooris, Jan 2160 0-1 22764 Peeren, Yen 2148
+5 30651 Vanparys, Philip 2156 0-1 76368 Roger, Mehdi 2146
+6 23981 Van Der Fraenen, Joep 2107 ½-½ 30805 Cocquyt, Tijs 2110
+7 34525 Mangelschots, Peter 2098 ½-½ 52795 Faure, Stephane 2057
+8 11343 Verhasselt, Karsten 2041 1-0 51969 Verboven, Alex 1836
+< 2153 > 4.5 - 3.5 < 2133 >
+Afdeling: 2 Serie: A
+174 Brasschaat 1 Deurne 1 124
+1 49921 Beukema, Stefan 2402 ½-½ 28045 Rooze, Jan 2327
+2 13507 Goes, Sten 2296 0-1 13668 Froeyman, Helmut 2316
+3 2585 Leenaerts, Robin 2289 ½-½ 14354 Van Mechelen, Jan 2237
+4 56740 De Vos, Nils 2273 1-0 25763 Penson, Thierry 2200
+5 13488 Schroer, Marcel 2233 0-1 7145 Minyeyevtsev, Semen 2168
+6 10171 Leenaerts, Kevin 2150 0-1 1112 Van Herck, Marcel 2156
+7 12294 Van Den Ouden, Lendert 2127 ½-½ 6858 Schuermans, Robert 2140
+8 50086 Beukema, Jasper 2001 ½-½ 12899 Ismail, Tamer 2066
+< 2221 > 3 - 5 < 2201 >
+Afdeling: 2 Serie: A
+401 KGSRL 2 Opwijk 1 261
+1 17116 Ponnet, Hendrik 2265 1-0 50482 Bomans, Arno 2263
+2 34380 Gregoir, Christophe 2222 0-1 1031 Gijsen, Stief 2197
+3 9156 Zouaghi, Nouri 2218 1-0 1988 Van Cappellen, Jonas 2188
+4 11460 Ducarmon, Renzo 2140 ½-½ 48569 Rogiers, Jan 2149
+5 17183 Hugaert, Arthur 2138 0-1 42838 Barbe, Tom 2118
+6 42251 Hulpia, Fabian 2136 0-1 13493 Morozova, Iuliia 2115
+7 31798 Regniers, Gilles 2120 1-0 52736 Van Der Vurst, Arne 2087
+8 31755 Regniers, Yves 1934 1-0 11030 De Block, Yordi 2031
+< 2147 > 4.5 - 3.5 < 2144 >
+Afdeling: 2 Serie: A
+471 Wachtebeke 1 Borgerhout 2 109
+1 14773 Admiraal, Miguoel 2454 ½-½ 9741 Baert, Andy 2210
+2 14189 Hopman, Pieter 2440 1-0 4693 Mollekens, Roeland 2082
+3 41718 Brkic, Bahrija 2310 1-0 80608 Aerts, Eric 2066
+4 10776 Rene, Benoit 2285 ½-½ 9971 Segarra Goncalves, Jorge 2028
+5 26492 Van Vliet, Dennis 2154 1-0 28321 Van Tilburgh, Jitte 1970
+6 50251 Grochal, Joey 2153 ½-½ 25755 Peleman, Tony 1875
+7 12850 Stange, Sven 2108 1-0 884 Provinciael, Ernest 1830
+8 15674 Ratsma, Rosa 2088 ½-½ 50297 Schick, Jonathan 1780
+< 2249 > 6 - 2 < 1980 >
+Afdeling: 2 Serie: A
+143 Temse 1 KBSK 2 303
+1 35467 Nieto, Emanuel 2348 1-0 36374 Michiels, Rob 2271
+2 7412 De Jonghe, Bruno 2282 ½-½ 25135 Bertrem, Stijn 2230
+3 56863 De Strycker, Nathan 2176 1-0 51764 Verduyn, Frederic 2161
+4 13021 Barbier, Sigiswald 2175 1-0 20141 Vandendriessche, Jan 2160
+5 11991 Rodriguez Martin, Emilio 2174 1-0 52752 Vandenbuerie, Joachim 2076
+6 45284 Kegels, Pascal 2173 1-0 1481 Van Thillo, Quentin 2047
+7 12467 Dijckmans, Bjorn 2172 1-0 85081 Barzeele, Raf 1994
+8 38270 Barbier, Wim 2171 1-0 11240 Martens, Geert 1864
+< 2209 > 7.5 - 0.5 < 2100 >
+Afdeling: 2 Serie: B
+462 Zottegem 2 Europchess 1 226
+1 10270 De Schampheleire, Glen 2323 ½-½ 98167 Buhr, Carl-Christian 2362
+2 11118 Roos, Adrian 2300 ½-½ 96865 Binham, Timothy 2308
+3 22543 Hamblok, Roel 2295 1-0 95672 Wiley, Tom 2273
+4 4936 Ghyselen, Wouter 2133 0-1 12054 Tomov, Georgi 2258
+5 25062 Van Melkebeke, Willem 2103 0-1 81558 Hoffmeister, Frank 2235
+6 15032 Smekens, Ruben 2102 ½-½ 10739 Moles Palleja, Pere 2144
+7 11669 Vanhuyse, Nele 2070 0-1 15696 Stoenescu, Radu 2142
+8 29726 De Herdt, Yasseen 1993 0-1 50293 Mueller, Martin 2096
+< 2165 > 2.5 - 5.5 < 2227 >
+Afdeling: 2 Serie: B
+201 CREB 1 Wirtzfeld 2 627
+1 60522 Malykin, Vitaly 2386 ½-½ 70289 Skulener, Wladimir 2371
+2 60527 Korotkjevich, Stanislav 2378 1-0 83658 Honhon, Roland 2188
+3 61981 Akhayan, Ruben 2287 1-0 14370 Kessler, Andreas 2142
+4 31267 Duhayon, Yves 2216 ½-½ 15845 Fink, Christian 2101
+5 9245 Luminet, Denis 2205 ½-½ 93351 Oberweiss, Paul 2031
+6 68501 Masgutov, Beksoltan 2089 1F-0F 96024 Tzoumacas, Georgios 1966
+7 12346 Eid, F. Yousif 2039 1-0 15878 Densing, Gerd 1937
+8 61875 Brouri, Mohand 1985 0-1 68853 Bovy, Mathieu 1798
+< 2198 > 5.5 - 2.5 < 2067 >
+Afdeling: 2 Serie: B
+604 KSK47-Eynatten 2 CREC 1 501
+1 15798 Stillger, Bernhard 2272 0-1 70092 Gurevich, Mikhail 2544
+2 12984 Mundorf, Johannes 2211 0-1 70564 Eliet, Nicolas 2393
+3 73270 Lafosse, Jimmy 2158 ½-½ 88617 Laurent, Bruno 2363
+4 97641 Vanstreels, Luk 2133 1-0 61859 Klinova, Masha 2298
+5 98132 Dischinger, Frank 2117 0-1 74853 Sclacmender, Julien 2222
+6 15666 Neuer, Thomas 2096 0-1 12804 Fayard, Alain 2200
+7 99643 Dorr, Yannick 1895 ½-½ 62235 Cappon, John 2199
+8 13201 Hammers, Michael 1769 0-1 54810 Piacentini, Claudio 2153
+< 2081 > 2 - 6 < 2297 >
+Afdeling: 2 Serie: B
+230 Leuven 1 Herve 1 622
+1 63819 Peek, Maurice 2391 ½-½ 14816 Kolkin, Michail 2325
+2 16365 Tonoli, Benjamin 2182 1-0 95056 Kartsev, Soel 2253
+3 23108 Goossens, Roel 2172 ½-½ 95057 Kartsev, Alexandr 2186
+4 32328 Verheyden, Jonas 2121 ½-½ 57916 Duric, Slavko 2144
+5 56332 Van Espen, Eddy 2092 0-1 60127 Charlier, Jean-Paul 2090
+6 7587 Van Hul, Christiaan 2062 1-0 91219 Fontaine, Pierre 2033
+7 21113 Massoels, Thomas 1980 1-0 97128 Giagoulis, Dimitri 2021
+8 11505 Delaere, Koen 1884 ½-½ 91448 Herzet, Serge 1951
+< 2111 > 5 - 3 < 2125 >
+Afdeling: 2 Serie: B
+607 KSK Rochade 2 Boitsfort 1 239
+1 98370 Coenen, Norbert 2302 ½-½ 400 Carlier, Bruno 2440
+2 14131 Harff, Marcel 2301 1-0 86495 Geenen, Marc 2244
+3 10824 Marcziter, Dmitrii 2300 1-0 97721 Lacroix, Bruno 2216
+4 95206 Huesmann, Thomas 2242 ½-½ 74365 De Villers, Mourad 2155
+5 14162 Muehlenhaus, Sven 2210 ½-½ 60861 Van Uytven, Eric 2131
+6 25909 Roessler, Eckhard 2182 ½-½ 95931 Philippe, Denis-Emmanuel 2086
+7 14916 Esser, Norbert 2158 1-0 66681 Callier, Christophe 2039
+8 95109 Mueller, Norbert 2107 1-0 12767 Jayes, Thomas William 1894
+< 2225 > 6 - 2 < 2151 >
+Afdeling: 2 Serie: B
+514 Fontaine 2 Eisden/MSK-Dilsen 1 703
+1 80209 Mastalerz, Xavier 2213 1-0 11001 Miesen, Fabian 2238
+2 16951 Allaert, Dimitri 2186 1-0 11486 Mengerink, Ynze 2125
+3 15092 Flament, Frederic 2077 1-0 16020 Van Meegen, Ruud 2120
+4 89711 Pierard, Florian 2054 1-0 49417 Frenken, Marcel 2116
+5 90115 Russo, Julien 2045 ½-½ 30384 De Cauter, Wolfgang 2049
+6 14183 Jimenez, Martin 2000 1-0 11986 De Mon, Gino 1974
+7 90981 Di Cosmo, Jonathan 1998 1-0 95001 Willen, Ronny 1865
+8 67113 Poivre, Eric 1947 ½-½ 15052 Morren, Eric Jan 1841
+< 2065 > 7 - 1 < 2041 >
+Afdeling: 3 Serie: A
+601 CRELEL 2 Brasschaat 2 174
+1 87700 Goossens, Etienne 2220 1-0 11513 Hawinkel, Stijn 2124
+2 37176 Timmermans, Daniel 2012 ½-½ 56057 Wijgers, Toon 2102
+3 13294 Jognery, Lionel 2011 0-1 28240 De Smedt, Mark 2058
+4 2411 Remont, Leopold 1965 0-1 14125 Busschots, Johan 1891
+5 78069 Wlogalski, Olivier 1901 1-0 97145 Paardekam, Rene 1890
+6 70297 Valentiny, Benoit 1877 1-0 11510 Demarre, Jan 1824
+< 1998 > 3.5 - 2.5 < 1982 >
+Afdeling: 3 Serie: A
+166 TSM 2 Oude God 1 132
+1 11894 Verschoren, Bram 2018 ½-½ 49051 Van Tichelen, Bart 2030
+2 17779 Verhaegen, Wim 2001 ½-½ 54771 De Kaey, Pascal 2023
+3 54712 Janssen, Dries 1988 0-1 57169 Verhulst, Nikolaas 2013
+4 13315 Deweerdt, Jan 1950 1-0 26603 T'Sas, Jan 2003
+5 15824 Lagendijk, Ivo 1839 0-1 39462 Hautekiet, Dries 1906
+6 54917 Verlinden, Patrick 1777 0-1 43869 Hiel, Lino 1860
+< 1929 > 2 - 4 < 1973 >
+Afdeling: 3 Serie: A
+708 NLS 1 KGSRL 3 401
+1 26824 Schoemans, Roy 2250 ½-½ 39063 Schalkx, Johnny 2163
+2 25704 Swevels, Barry 2018 0-1 50229 Deman, Stefaan 2145
+3 10785 Van Kessel, Wessel 2017 1-0 35564 Van Hoecke, Luc 2039
+4 11483 Schenning, Albert 2016 ½-½ 35491 Mauquoy, Alain 2020
+5 22721 Geboers, Jimmy 1926 ½-½ 80985 Versporten, Wim 2009
+6 13706 Polat, Yasin 1568 0-1 22659 Roels, Frederik 1991
+< 1966 > 2.5 - 3.5 < 2061 >
+Afdeling: 3 Serie: A
+101 KASK 1 Mechelen 1 114
+1 52507 Dijkstra, Bart 2150 ½-½ 12653 Roofthoofd, Marcel 2250
+2 37796 Lavrenov, Yuli 2120 ½-½ 10397 Lee, Deon 2085
+3 3131 Engelen, Joseph 2100 0-1 10284 Sterck, Arno 2064
+4 40363 Engelaer, Maurice 1970 0-1 88731 Hajenius, Willem 2007
+5 15041 Schrickx, Frank 1900 ½-½ 9768 Pevar, Andrew 2006
+6 13603 Muzzi, Daniele 1600 0-1 29912 Cliteur, Olaf 1940
+< 1973 > 1.5 - 4.5 < 2059 >
+Afdeling: 3 Serie: A
+410 St.-Niklaas 1 Geel 1 135
+1 26611 Verbeeren, Peter 2023 0-1 50075 Goossens, Hanne 2185
+2 45357 Ongena, Niels 1892 0-1 36609 Nohut, Kadir 2147
+3 33014 Van Der Stricht, Jan 1861 ½-½ 58572 Luyckx, Wim 2136
+4 34631 Elsen, Tijs 1780 0-1 51837 Philipsen, Mathias 2093
+5 6009 Van Goethem, Jelle 1703 ½-½ 13330 Marx, Nicolas 2042
+6 40711 Kuenen, Bart 1601 0-1 18503 Maes, Chris 1964
+< 1810 > 1 - 5 < 2095 >
+Afdeling: 3 Serie: A
+143 Temse 2 Westerlo 1 176
+1 41084 Stuer, Marc 2112 1-0 11619 Bellens, Steven 2020
+2 7404 De Jonghe, Peter 2086 1-0 388 Gorts, Sven 2007
+3 79324 Caluwe, Marc 2054 1-0 13492 Sterckx, Pieter 2006
+4 58319 Wilssens, Wim 2035 1-0 28231 Peeters, Tim 2005
+5 19704 Van Landeghem, Peter 1965 0-1 34614 Van Dyck, Marc 1919
+6 31518 Barbier, Astrid 1808 0-1 34622 Van Der Auwera, Jan 1889
+< 2010 > 4 - 2 < 1974 >
+Afdeling: 3 Serie: B
+951 Lasne-Waterloo 1 Europchess 2 226
+1 62286 Wettach, Michel 2109 1-0 12366 Molnar, Jozsef 2107
+2 63797 Wettach, Alain 1960 0-1 15623 Hannesson, Olafur 2086
+3 9563 Vausort, Andre 1854 0-1 10684 Johansson, Mattias 2023
+4 81302 Lheureux, Benoit 1847 1-0 12861 Riksten, John 2013
+5 68209 Chung Choong Lon, Marc 1846 0-1 12853 Andreev, Svetlozar 1943
+6 74641 Bamps, Thierry 1608 0-1 12300 Parreira, Luis Miguel 1835
+< 1871 > 2 - 4 < 2001 >
+Afdeling: 3 Serie: B
+403 Drie Torens 1 St.-Amandsberg 1 472
+1 10139 Vandelacluze, Ian 2106 1-0 29327 Mahieu, Rimsky 2121
+2 43257 Ramacker, Quinten 2031 0-1 52361 Hertele, Stijn 2034
+3 10670 De Feijter, Bas 2015 1-0 40568 Willen, Benny 2010
+4 42391 Maes, Tibo 1995 ½-½ 31674 Van Laeken, Jonathan 1886
+5 11927 Pauwels, Xander 1900 1-0 11400 Verhalle, Elias 1811
+6 10280 Ramacker, Nico 1896 0-1 97150 Ost, Roger 1682
+< 1991 > 3.5 - 2.5 < 1924 >
+Afdeling: 3 Serie: B
+952 Wavre 1 KGSRL 4 401
+1 61328 Bauduin, Etienne 2241 ½-½ 1864 Goormachtigh, Johan 2211
+2 92894 Anciaux, Marc 2166 0-1 59544 Lacrosse, Marc 2157
+3 1473 Verhaegen, Albert 2107 0-1 15121 Van Leeuwen, Etienne 2079
+4 79294 Depauw, Christian 2105 0-1 53830 Boog, Ben 2075
+5 84255 Verspecht, Thierry 2064 1-0 53708 De Saegher, Johan 1922
+6 46710 Hawia, Thierry 2049 1-0 14762 Anderl, Christoph 1886
+< 2122 > 2.5 - 3.5 < 2055 >
+Afdeling: 3 Serie: B
+230 Leuven 2 Wetteren 1 432
+1 30775 Aglave, Arnaud 2056 1-0 9253 Van De Velde, Koen 2131
+2 22403 Weiler, Marc 2055 ½-½ 13854 Verlinden, Robijn 2128
+3 8613 Slootmaekers, Romain 2003 1-0 66443 Michiels, Luc 2120
+4 24325 Schreurs, Bert 1937 ½-½ 10283 Van Houtte, Randy 2022
+5 59749 Voet, Dirk 1888 1-0 72966 Castelein, Dirk 2021
+6 30856 Burger, Stefaan 1834 ½-½ 21938 Demunck, Jan 1981
+< 1962 > 4.5 - 1.5 < 2067 >
+Afdeling: 3 Serie: B
+548 Caissa Europe 1 LSV-Chesspirant 1 436
+1 84841 Marlier, Gaeetan 2012 0-1 31160 Van Eetvelde, Ward 2191
+2 81388 Degrave, Geoffrey 2011 0-1 33570 Verhelst, Joris 2108
+3 50113 Canneel, Daniel 2010 ½-½ 38253 De Bock, Lennart 2107
+4 90883 De Noose, Daniel 1851 0-1 24694 De Rycke, Timothy 2066
+5 85901 Cloes, Johan 1721 0-1 10967 Decruyenaere, Robbert 1769
+6 91472 Vicainne, Jerome 1714 0-1 10934 Van Malder, Dries 1574
+< 1887 > 0.5 - 5.5 < 1969 >
+Afdeling: 3 Serie: B
+143 Temse 3 Dworp 1 228
+1 3352 Van Laeken, Rudy 2125 ½-½ 20621 Vanderwaeren, Serge 2216
+2 43516 Barbier, Wiebke 2034 1-0 21881 Denys, Frank 1939
+3 40517 Boons, Bert 2033 ½-½ 34584 De Reymaeker, Walter 1923
+4 28533 Boons, Patrick 2032 ½-½ 43419 Maeckelbergh, Geert 1821
+5 13161 Barbier, Thomas 1976 1-0 76317 Cornelis, Eric 1690
+6 11748 Smet, Louis 1722 ½-½ 31682 Van De Velde, Filip 1535
+< 1987 > 4 - 2 < 1854 >
+Afdeling: 3 Serie: C
+462 Zottegem 3 Roeselare 1 309
+1 45934 Van Den Heede, Dorian 1992 1-0 6653 Maddens, Martijn 2110
+2 23841 Colin, Peter 1991 1-0 16195 Feys, Bert 2108
+3 6467 Van Poucke, Simon 1939 0-1 11450 Petralia, Fabio 1843
+4 32379 Daneels, Bart 1839 1-0 69884 Logie, Bernard 1797
+5 23809 Gyselinck, Jelle 1684 1-0 213 Deblauwe, Pauwel 1738
+6 11831 Dellaert, Sander 1629 ½-½ 12742 Ottevaere, Herman 1735
+< 1846 > 4.5 - 1.5 < 1889 >
+Afdeling: 3 Serie: C
+313 Waregem 1 KOSK 2 301
+1 36897 Windels, Jan 2058 ½-½ 28436 Decrop, Benjamin 2062
+2 876 De Schepper, Bart 2047 0-1 45608 Decrop, Ruben 2039
+3 45063 Truwant, Pieter 2013 1-0 24384 Dayer, Glenn 1887
+4 11412 Tomme, Lowie 1988 ½-½ 16136 Couvreur, Erwin 1833
+5 27961 Devolder, Dieter 1960 ½-½ 11317 Vanden Bussche, Steven 1773
+6 27995 Debrouwere, Jeroen 1912 1-0 51829 Wollaert, Brian 1679
+< 1996 > 3.5 - 2.5 < 1879 >
+Afdeling: 3 Serie: C
+475 Aalter 1 KISK 1 302
+1 25151 Larmuseau, Maarten 2274 0-1 4073 Daels, Marc 2257
+2 23655 Van Hulle, Yves 2058 ½-½ 12947 Segers, Regis 1994
+3 41386 Verhaeghe, Philip 1957 ½-½ 27600 Cottegnie, Francis 1897
+4 42153 Dierckens, Sarah 1869 0-1 12290 Carpentier, Jannes 1845
+5 47295 Christiaens, Mark 1842 0-1 10030 Vandamme, Florian 1788
+6 13376 De Waele, Warre 1771 0-1 50013 Chaerle, Josse 1776
+< 1962 > 1 - 5 < 1926 >
+Afdeling: 3 Serie: C
+401 KGSRL 5 Estaimpuis 1 508
+1 6815 Verhaeren, Gertjan 2121 1-0 13586 Marciniak, Marcel 1995
+2 14212 Adriaens, Peter 1910 ½-½ 85898 Bauwe, Pascal 1944
+3 5827 Vincent, Gwijde 1826 ½-½ 82571 Charlier, Laurent 1900
+4 24988 Van Hoecke, Elena 1825 ½-½ 55280 Vanden Abeele, Xavier 1711
+5 26271 Vincent, Ayla 1785 1-0 13453 Pijcke, Benoit 1600
+6 53694 Vandaele, Viktor 1737 ½-½ 15073 Sergent, Romain 1598
+< 1867 > 4 - 2 < 1791 >
+Afdeling: 3 Serie: C
+471 Wachtebeke 2 Artevelde 1 465
+1 14777 Van Der Auweraert, Elwin 2284 1-0 14567 Descamps, Stijn 2076
+2 14781 Blom, Vincent 2225 1-0 9504 Lemmens, Philip 2008
+3 14250 Gutkind, Kedem 2074 1-0 32344 Moens, Patrick 1929
+4 56596 Audenaert, Bart 2015 1-0 26654 Willems, Chris 1908
+5 13463 De Pooter, Ronald 1874 ½-½ 22080 Descamps, Bert 1904
+6 34517 Verschraegen, Thomas 1814 1-0 10454 Goldschmidt, Sven 1740
+< 2048 > 5.5 - 0.5 < 1928 >
+Afdeling: 3 Serie: C
+430 Landegem 1 KBSK 3 303
+1 8273 Danckaert, Luc 2124 ½-½ 36277 Larsen, Harald 2048
+2 15059 De Medts, Tom 2045 0-1 47813 Vandewiele, Emiel 1992
+3 23434 Verbruggen, Samuel 1987 0-1 13196 Defreyne, Luc 1991
+4 34746 Bonne, Ronny 1949 ½-½ 2798 De Vent, Rens 1905
+5 34754 De Pauw, Erik 1936 1-0 34037 De Bisscop, Maxim 1822
+6 11526 Huygebaert, Batist 1652 ½-½ 10004 Pu, Linden 1680
+< 1949 > 2.5 - 3.5 < 1906 >
+Afdeling: 3 Serie: D
+601 CRELEL 3 Welkenraedt 1 619
+1 67288 De Gueldre, Philippe 2170 1-0 80420 Hennicken, Reinhard 2011
+2 85511 Marville, Gregoire 2130 0-1 77101 Reznikov, Gennadij 1997
+3 99728 Blavier, Christian 1895 1-0 14976 Berul, Sim 1970
+4 82007 Dradon, Sebastien 1890 ½-½ 28291 Porteman, Eric 1867
+5 87718 Nottet, Tristan 1878 1-0 60066 Kerres, Heinrich 1833
+6 58092 Delcour, Errol 1795 1-0 79375 Debeus, Daniel 1686
+< 1960 > 4.5 - 1.5 < 1894 >
+Afdeling: 3 Serie: D
+901 Namur 2 Caissa Europe 2 548
+1 50474 Werner, Ivan 2079 ½-½ 82279 Mutombo, Kabeya 2025
+2 71455 Coibion, Charles 2039 1-0 83909 Blagojevic, Lubo 2024
+3 62561 Lejeune, Vincent 1991 0-1 63291 Semlali, Hassan 2023
+4 86282 Dethy, David 1985 ½-½ 12802 Godry, Clement 1928
+5 86215 Geuquet, Michael 1978 ½-½ 76601 Marchal, Patrice 1850
+6 69744 Andre, Damien 1966 0-1 60517 Marchal, Laurent 1792
+< 2006 > 2.5 - 3.5 < 1940 >
+Afdeling: 3 Serie: D
+604 KSK47-Eynatten 3 CREC 2 501
+1 13575 Ciornei, Dragos 2136 1-0 82635 Bruno, Ricardo 2067
+2 61956 Krueger, Andre 2134 1-0 79120 Lalau, Alexandre 2066
+3 15601 Schumacher, Helmut 2017 1-0 69663 Israel, Gregory 2023
+4 97462 Peters, Mathias 1909 ½-½ 88323 Krasucki, Youri 2015
+5 14182 Seibt, Sascha 1760 ½-½ 87408 Jamar, Vadim 1875
+6 95096 Koetters, Marcel 1583 1-0 60646 Gillot, Florent 1864
+< 1923 > 5 - 1 < 1985 >
+Afdeling: 3 Serie: D
+538 Fleurus 1 Amay 2 618
+1 64637 Marte, Sebastien 2150 ½-½ 14156 Schaefer, Juergen 2140
+2 60565 Boillon, Vincent 2135 ½-½ 97136 Thirion, Marcel 2112
+3 75272 Delmont, Jean-Robert 2007 ½-½ 10754 Bien, Stefan 2077
+4 72443 George, Michael 1979 ½-½ 63185 Nauts, Patrick 2044
+5 86479 Vingerhoets, Luc 1975 ½-½ 62600 Munster, Pierre 2025
+6 70734 Iacona, Antonio 1845 ½-½ 81019 Bikady, Claude 1990
+< 2015 > 3 - 3 < 2065 >
+Afdeling: 3 Serie: D
+607 KSK Rochade 3 Eisden/MSK-Dilsen 2 703
+1 98329 Van Lishout, Francois 2103 1-0 10537 Merx, Bob 2094
+2 15555 Plumanns, Dieter 2061 1-0 53457 Bischoff, Gerard 1952
+3 50212 Drose, Daniela 2004 ½-½ 13681 Singer, Imad 1919
+4 97284 Fournell, Udo 1956 1-0 31054 Mocsnik, Robbie 1825
+5 99341 Godesar, Ralph 1891 0-1 51497 Hendrikx, Marc 1812
+6 15684 Krohn, Malte - Till 1765 1-0 8419 Cornet, Luc 1801
+< 1963 > 4.5 - 1.5 < 1901 >
+Afdeling: 3 Serie: D
+514 Fontaine 3 Midden-Limburg 1 727
+1 61301 Wattin, Joffrey 1938 1F-0F 44041 Grecuccio, Nicola 2221
+2 61948 Russo, Bruno 1923 0-1 14231 Theunissen, Kris 2135
+3 75418 Rousseau, Jean-Francois 1910 ½-½ 31879 Kocur, Johan 2059
+4 81981 Lui, Eric 1904 0-1 11210 Bex, Lennert 1916
+5 88374 Lion, Maurice 1877 ½-½ 3778 Kocur, Marc 1902
+6 73695 Marchiano, Marco 1860 0-1 50070 Snoeks, Pieter-Jan 1822
+< 1902 > 2 - 4 < 2009 >
+Afdeling: 4 Serie: A
+601 CRELEL 4 Wirtzfeld 3 627
+1 94854 Cesar, Andre 1836 1-0 97853 Schmidt, Waldemar 1982
+2 60389 Alessi, David 1794 0-1 10721 Seibt, Friedebert 1919
+3 70530 Kuzmin, Vladimir 1712 0-1 15017 Schwab, Patrick 1856
+4 60257 Verheyden, Robin 1626 0-1 47422 Zilles, Paul 1696
+< 1742 > 1 - 3 < 1863 >
+Afdeling: 4 Serie: A
+901 Namur 3 Wirtzfeld 4 627
+1 81361 Piron, Didier 1984 1-0 96709 Jacobs, Olivier 1671
+2 90964 Pacolet, Fabrice 1891 0-1 10780 Hilgers, Garry 1574
+3 66419 Aubert, Bernard 1834 ½-½ 10627 Paquay, Noah 1545
+4 12756 Dallemagne, Maximilien 1625 1-0 13545 Pfeiffer, Noah 1449
+< 1834 > 2.5 - 1.5 < 1560 >
+Afdeling: 4 Serie: A
+604 KSK47-Eynatten 4 Ans 1 621
+1 10750 Raygrotzki, Norbert 1892 1-0 10633 Monticelli, Romain 2051
+2 95450 Rosskamp, Bob 1884 0-1 13403 Cuttaia, Giacinto 1927
+3 48895 Simons, Jean 1822 1-0 82759 Joassin, Stephane 1886
+4 95019 Esser, Juergen 1756 ½-½ 79685 Lafosse, Jose 1640
+< 1839 > 2.5 - 1.5 < 1876 >
+Afdeling: 4 Serie: A
+714 Overpelt 1 Amay 3 618
+1 55964 Nijssen, Peter 1941 ½-½ 29238 Dambiermont, Marc 1989
+2 95184 Gijbels, Rudi 1860 ½-½ 67661 Wolf, Pierre 1823
+3 38890 Van Stiphout, Marc 1700 ½-½ 92819 Wirth, Charles 1777
+4 32239 De Duffeleer, Philippe 1633 ½-½ 65927 Scharapow, Yvan 1726
+< 1784 > 2 - 2 < 1829 >
+Afdeling: 4 Serie: A
+607 KSK Rochade 4 Marche 1 810
+1 13554 Schillings, Peter 1928 ½-½ 78514 Boclinville, Patrick 1946
+2 97926 Klein, Gernot 1873 ½-½ 91553 Belva, Frederic 1912
+3 56766 Demonceau, Georges 1738 0-1 85456 Dublet, Emilien 1826
+4 99376 Havenith, Jean 1737 ½-½ 73067 Glibert, Stephane 1819
+< 1819 > 1.5 - 2.5 < 1876 >
+Afdeling: 4 Serie: A
+712 Landen 1 Midden-Limburg 2 727
+1 56359 Fogel, Pierre 2118 1-0 14989 Reyes Quesada, Yunior 1994
+2 37401 Vandecan, Michel 1892 0-1 48259 Cillen, Jeroen 1852
+3 56278 Tutenel, Erik 1865 ½-½ 10800 Bratuszewski, Jorden 1841
+4 39829 Timmermans, Stefan 1836 0-1 10474 De Coninck, Erik 1835
+< 1928 > 1.5 - 2.5 < 1881 >
+Afdeling: 4 Serie: B
+290 Epicure 1 Europchess 3 226
+1 92479 Robert, Pierre 2096 1-0 12256 Busquets Perez, Luis 1705
+2 41831 Lombart, Philippe 2003 ½-½ 13456 Petrov, Ventsislav 1661
+3 8575 Herman, Luc 1879 0-1 15518 Russian, Carlo 1550
+4 65722 Piron, Jean-Marie 1739 1-0 14809 Amelotti, Alessandro 1500
+< 1929 > 2.5 - 1.5 < 1604 >
+Afdeling: 4 Serie: B
+201 CREB 2 Pantin 1 278
+1 80781 Alota, Valentin 1931 0-1 65544 Collette, Benjamin 2154
+2 71919 Theuerkauff, Olivier 1912 0-1 25186 Thiteca, Thierry 2117
+3 25844 Chokouhian, Ahmad 1878 1-0 50571 Jacobs, Antoine 1988
+4 49425 Thierens, Christian 1872 ½-½ 50117 Haak, Tillmann 1980
+< 1898 > 1.5 - 2.5 < 2060 >
+Afdeling: 4 Serie: B
+952 Wavre 2 Excelsior 1 204
+1 70602 Bouchat, Xavier 1963 0-1 85103 Onrubia-Aviles, Carlos 1927
+2 60442 Thibaut, Stephane 1901 0-1 61794 Lambert, Luc 1791
+3 81906 Hulet, Gerard 1789 1-0 15567 Siadatan, Seyed 1653
+4 94561 Tossens, Alain 1755 ½-½ 14766 Palazoski, Elvir 1627
+< 1852 > 1.5 - 2.5 < 1750 >
+Afdeling: 4 Serie: B
+209 TBCC 2 Opwijk 2 261
+1 89681 Samray, Thomas 2002 1-0 12202 Van Acker, Gilbert 1841
+2 60336 Soubrier, Aude 1979 1-0 34151 Verhasselt, Kris 1805
+3 24856 Atanasiu, Nicolae 1846 0-1 10344 Van Zeebroeck, Sam 1793
+4 71013 Roblet, Fabrice 1657 ½-½ 13432 Bijloos, Geert 1589
+< 1871 > 2.5 - 1.5 < 1757 >
+Afdeling: 4 Serie: B
+244 Brussels CC 1 Boitsfort 2 239
+1 87921 Iolis, Oleg 2104 1-0 36633 Lacrosse, Bernard 1743
+2 14119 Solsky, Itzhak 2067 1-0 12208 Servais, Frederic 1582
+3 74349 Sunnerberg, Constantin 2066 1-0 15144 Petrosino, Julian 1523
+4 50003 Kolp, Theo 1736 1-0 14565 Hanzl, Tadeas 1050
+< 1993 > 4 - 0 < 1475 >
+Afdeling: 4 Serie: B
+207 2 Fous Diogène 1 Woluwe 1 229
+1 14147 Shipkov, Petyo 1950 0-1 10563 Verbist, Julien 2039
+2 60728 Vasile-Bonciog, Cristian 1935 1-0 54020 Giadrosic, Dinko 1807
+3 92665 Yody, Steve 1888 1-0 92452 Burnay, Gerard 1789
+4 55549 Castiau, Julien 1573 1-0 95826 Rampelbergh, Wilfrid 1684
+< 1837 > 3 - 1 < 1830 >
+Afdeling: 4 Serie: C
+518 Soignies 1 Philippeville 1 909
+1 70742 Ooghe, Jean-Marie 1950 0-1 74063 Dessomme, Francois 1995
+2 69892 Watelet, Sylvain 1906 ½-½ 14968 Gomes, Alexis 1894
+3 96105 Dupuis, Cedric 1896 1-0 71978 Wautelet, Patrick 1863
+4 98919 Deneyer, Frank 1752 1-0 92711 Demeirleir, Alain 1764
+< 1876 > 2.5 - 1.5 < 1879 >
+Afdeling: 4 Serie: C
+901 Namur 4 Leuze 1 541
+1 99338 Cornelissens, Francis 1776 0-1 66249 Real, Thibault 2047
+2 45641 Mathieu, Alfred 1718 0-1 79316 Hias, Ludovic 2022
+3 12394 Decrop, Ronald 1609 0F-1F 93335 Baguet, Frederic 1869
+4 55085 Khmelevski, Igor 1607 0-1 71081 Knudde, Francis 1847
+< 1678 > 0 - 4 < 1946 >
+Afdeling: 4 Serie: C
+952 Wavre 3 CREC 3 501
+1 82589 De Wergifosse, Etienne 1696 ½-½ 92207 Remy, Joel 2012
+2 93157 Godeaux, Olivier 1689 ½-½ 98365 Gilles, Jean-Claude 1968
+3 85642 Tavernier, Frank 1602 ½-½ 63487 Vidaich, Stephane 1918
+4 13920 Verhoeven, Willy 1153 0-1 66311 Hanset, Marc 1854
+< 1535 > 1.5 - 2.5 < 1938 >
+Afdeling: 4 Serie: C
+538 Fleurus 2 Amay 4 618
+1 75990 Stilmant, Thierry 1846 1-0 60397 Visse, Bernard 1805
+2 83348 Detraux, Denis 1844 1-0 60299 Kuciapa, Andre 1739
+3 60275 Lenoir, Thierry 1802 1-0 12189 Kreczman, Savinien 1595
+4 64998 Bodart, Jeffrey 1711 1-0 67610 Adans-Dester, Alexandre 1509
+< 1801 > 4 - 0 < 1662 >
+Afdeling: 4 Serie: C
+548 Caissa Europe 3 Marche 2 810
+1 60408 Avilov, Igor 1867 ½-½ 65331 Martin, Fabrice 1801
+2 66281 Console, Joseph 1722 0-1 60537 Charlier, Dominique 1771
+3 17311 Vandurme, Philippe 1702 ½-½ 10716 Onbelet, Steve 1714
+4 43605 Pitropakis, Kyriakos 1684 0-1 60027 Pezzin, Charles-Francois 1642
+< 1744 > 1 - 3 < 1732 >
+Afdeling: 4 Serie: C
+418 Geraardsbergen 1 Tournai 1 521
+1 46345 Matthijs, Kris 1884 0-1 74926 Minet, Julien 1940
+2 10821 Ringoir, Guy 1875 1-0 15372 Chopin, Christian 1590
+3 17817 De True, Toon 1780 1-0 77348 Skowron, Jean-Pol 1577
+4 10067 Gossye, Michiel 1778 1-0 14266 Roccazzella, Salvatore 1478
+< 1829 > 3 - 1 < 1646 >
+Afdeling: 4 Serie: D
+462 Zottegem 4 Bredene 1 307
+1 5355 Roos, Frank 1815 0-1 9628 Passchyn, Maarten 2035
+2 24651 De Weird, Gunter 1805 0-1 57941 Lagast, Herve 2031
+3 34886 Broekaert, Wim 1796 1-0 29548 Roman, Hugo 1761
+4 2518 Ponnet, Dirk 1701 ½-½ 11779 Chichmarev, Alex 1660
+< 1779 > 1.5 - 2.5 < 1872 >
+Afdeling: 4 Serie: D
+313 Waregem 2 KOSK 3 301
+1 65978 Bossuyt, Herman 1807 ½-½ 20516 Vanmassenhove, Frederik 1915
+2 13765 Coghe, Brecht 1796 1-0 12831 Pincket, Michael 1905
+3 40193 Rollez, Luc 1665 0-1 8001 Pincket, Thomas 1848
+4 65196 Devolder, Robrecht 1501 0-1 35122 Wuyts, Tom 1666
+< 1692 > 1.5 - 2.5 < 1834 >
+Afdeling: 4 Serie: D
+422 MSV 1 Pion 68 1 352
+1 11518 Van De Vaerd, Miguel 1903 1-0 72249 Vandenbon, Nico 1901
+2 13629 Chimakadze, Giorgi 1710 0-1 12340 Kim, Oleg 1684
+3 15735 Versporten, Jean-Pierre 1149 0-1 70661 Decroos, Frans 1647
+4 10230 D'Hondt, Hilde 1148 ½-½ 1813 Podevijn, Guido 1491
+< 1478 > 1.5 - 2.5 < 1681 >
+Afdeling: 4 Serie: D
+401 KGSRL 6 Wetteren 2 432
+1 12998 De Graef, Marc 1834 0-1 41254 Carlier, Sven 1859
+2 7544 Van Muylem, Tom 1797 0-1 50067 Van Heddeghem, Klaas 1622
+3 23876 Wagner, Hans 1738 0-1 49743 Matthys, Johan 1621
+4 19984 Vanbellingen, Patrick 1668 1-0 99681 Bonnaffe, Xavier 1530
+< 1759 > 1 - 3 < 1658 >
+Afdeling: 4 Serie: D
+351 Knokke 1 Veurne 1 322
+1 13085 Vebiji, Seljami 1950 ½-½ 20877 Danneel, Geert 2017
+2 31640 Dezutter, Johan 1940 ½-½ 47112 Harteel, Dave 1941
+3 12092 Van Kerkhove, Piet 1721 0-1 29165 Van Eert, Frans 1738
+4 38083 Pannier, Jean-Pierre 1584 0-1 22250 Lenoir, Aurele 1737
+< 1799 > 1 - 3 < 1858 >
+Afdeling: 4 Serie: D
+430 Landegem 2 KBSK 4 303
+1 25518 Philips, Richard 1945 ½-½ 73717 Rogiers, Jonny 1842
+2 44539 Philips, Ivo 1805 1-0 10707 Deketelaere, Francky 1809
+3 29271 Grootaert, Luc 1724 1-0 32247 Suski, Dominiek 1566
+4 21008 Ponnet, Guy 1682 1-0 15494 Grgicevic, Luka 1550
+< 1789 > 3.5 - 0.5 < 1692 >
+Afdeling: 4 Serie: E
+462 Zottegem 5 Jean Jaurès 2 402
+1 6246 Van Puyvelde, Stijn 1817 0-1 14103 Deberdt, Joris 2091
+2 19283 Vande Velde, Kristof 1816 0-1 32883 Harnie, Peter 2089
+3 11386 Motte, Jan 1672 0-1 38342 Galle, Andre 2000
+4 26018 De Weird, Evy 1627 0-1 8052 Van Rij, Gert 1989
+< 1733 > 0 - 4 < 2042 >
+Afdeling: 4 Serie: E
+403 Drie Torens 2 St.-Amandsberg 2 472
+1 10758 Khonghaloos, Zorik 1752 0-1 10184 Thienpondt, Mardoek 1839
+2 11463 Moerman, Thomas 1572 ½-½ 6530 Coupe, Rudy 1733
+3 11876 Claeys, Robin 1556 0-1 15135 Van Drom, Maarten 1673
+4 10306 Claeys, Elisabeth 1228 0-1 14347 Lambrechts, Luk 1550
+< 1527 > 0.5 - 3.5 < 1699 >
+Afdeling: 4 Serie: E
+422 MSV 2 KGSRL 7 401
+1 8320 Lanckriet, Chris 2056 1-0 11886 Vercruysse, Vincent 1904
+2 14818 Kamminga, Gosse 1992 ½-½ 35980 De Corte, Ronny 1778
+3 41947 Verkimpe, Mike 1960 1-0 39934 Deloof, Koen 1698
+4 38911 Buysse, Jakob 1938 1-0 10037 Ninclaus, Wouter 1634
+< 1987 > 3.5 - 0.5 < 1754 >
+Afdeling: 4 Serie: E
+417 Aalst 1 Wetteren 3 432
+1 32913 Willockx, Ritsaart 1974 ½-½ 38822 Vintioen, Ben 1927
+2 54542 Vermeiren, Bart 1924 ½-½ 41955 Defre, Walter 1926
+3 36013 Van Den Eede, Gerrit 1875 0-1 21351 Van Houtte, Johan 1860
+4 34011 De Smet, Frans 1844 0-1 11132 Lachaert, Tibo 1652
+< 1904 > 1 - 3 < 1841 >
+Afdeling: 4 Serie: E
+471 Wachtebeke 3 Oudenaarde 1 460
+1 51071 Maas, Joop 1875 1-0 26280 Vandendriessche, Gunther 1856
+2 51055 De Putter, Theo 1873 ½-½ 43044 De Vrieze, Sander 1722
+3 53449 Van Steenkiste, Luc 1817 ½-½ 44270 Lamon, Daniel 1666
+4 22519 Van Hoorebeke, Jimmy 1816 1-0 37753 Moerman, Tom 1554
+< 1845 > 3 - 1 < 1700 >
+Afdeling: 4 Serie: E
+430 Landegem 3 KBSK 5 303
+1 46639 Vanhauwaert, Kurt 1798 1-0 28134 Van Houtte, Filip 1792
+2 44229 Snoeck, Gino 1779 ½-½ 58947 De Meyere, Dirk 1633
+3 8851 Snoeck, Sarah 1668 1-0 44016 Vervaeck, Bart 1595
+4 41114 Oosterlinck, Luc 1615 ½-½ 7510 Taets, Ivan 1547
+< 1715 > 3 - 1 < 1642 >
+Afdeling: 4 Serie: F
+174 Brasschaat 3 Hoboken 2 130
+1 12736 Mitran, Anthony Cristian 1925 1-0 18686 Van Bunderen, Gert 1876
+2 48381 Remijsen, Dave 1876 0-1 28754 Van Goethem, Jozef 1870
+3 94404 Gys, Wilfried 1798 1-0 54267 Liekens, Ronny 1782
+4 17825 Verlinden, Willem 1661 0-1 14446 Parsai, Ali 1780
+< 1815 > 2 - 2 < 1827 >
+Afdeling: 4 Serie: F
+436 LSV-Chesspirant 2 Oude God 2 132
+1 8974 Van Wiele, Kurt 1844 ½-½ 53805 Verhulst, Tobias 1876
+2 41904 Londers, Jan 1773 0-1 48151 Viaene, Jan 1862
+3 33421 Zatyko, Ferry 1771 ½-½ 43508 Luyten, Rudi 1761
+4 10816 Boudry, William 1667 0-1 53619 Doossche, Carlo 1720
+< 1764 > 1 - 3 < 1805 >
+Afdeling: 4 Serie: F
+128 Beveren 1 Deurne 2 124
+1 14061 Van Hove, Paolo 1983 1-0 32204 Du Pont, David 2052
+2 47414 Paesschesoone, Stefan 1878 0-1 44971 Van Lil, Bob 1906
+3 58335 Schillemans, Willy 1823 ½-½ 50393 Dugailliez, Guy 1900
+4 10207 Verbruggen, Peter 1789 ½-½ 45675 Foulon, Greta 1743
+< 1868 > 2 - 2 < 1900 >
+Afdeling: 4 Serie: F
+401 KGSRL 8 Paul Van Herck 1 188
+1 6785 Devolder, Pieter 1709 0-1 30228 Verleye, Willy 1994
+2 14495 Vanduyfhuys, Daria 1548 0-1 4626 De Hert, Robert 1859
+3 14603 Vanduyfhuys, Igor 1368 0-1 37125 De Gent, Tom 1835
+4 14736 Vanduyfhuys, Ilja 1209 0-1 10324 Van De Perre, Patrick 1606
+< 1459 > 0 - 4 < 1824 >
+Afdeling: 4 Serie: F
+410 St.-Niklaas 2 Borgerhout 3 109
+1 8451 De Blieck, Johan 1594 0-1 46566 Kooyman, Marcel 1781
+2 10389 Lanoy, Frederic 1547 0-1 13078 Gottfried, Jonathan 1695
+3 12955 Covents, Maarten 1413 0-1 44563 Tuytens, Ivo 1676
+4 36943 Heyrman, Maarten 1004 0-1 23329 Hanssen, Paul 1644
+< 1390 > 0 - 4 < 1699 >
+Afdeling: 4 Serie: F
+430 Landegem 4 Dendermonde 1 425
+1 80055 De Vroe, Philip 1886 ½-½ 8834 Boodts, Jeroen 1798
+2 19216 Pauwels, Rudi 1811 0-1 11064 De Blende, Nando 1581
+3 27693 Vander Cruyssen, Piet 1777 1-0 14432 Hofman, Jan 1304
+4 35521 Van De Casteele, Frederik 1662 0-1 15418 Van Den Broeck, Sijmen 1017
+< 1784 > 1.5 - 2.5 < 1425 >
+Afdeling: 4 Serie: G
+192 Lier 1 DT Leuven 1 231
+1 13285 Verrijssen, Patrick 1918 0-1 10263 De Roo, Samuel 1862
+2 48291 Verbeeck, Kevin 1863 1-0 5207 Heremans, Dries 1653
+3 23311 Guldentops, Pierre 1768 1-0 13311 Gheorghiu, Stefan-Daniel 1630
+4 14123 Hoffmann, Ruben 1741 0-1 12753 Partoens, Remi 1590
+< 1823 > 2 - 2 < 1684 >
+Afdeling: 4 Serie: G
+201 CREB 3 Machelen 1 240
+1 35556 Cornil, Etienne 1991 0-1 10415 Harutyunyan, Axel 1836
+2 8958 Demoulin, Paul 1831 0-1 57011 De Mol, Patrick 1769
+3 9067 Fontigny, Francois 1828 1-0 5932 Hernalsteen, Johan 1705
+4 78093 Van De Water, Marc 1606 ½-½ 34045 Pepermans, Jelle 1638
+< 1814 > 1.5 - 2.5 < 1737 >
+Afdeling: 4 Serie: G
+114 Mechelen 2 Humbeek 1 260
+1 32212 Pelgrims, Jan 1971 1-0 10421 Schrevens, Birger 2041
+2 11319 Cornille, Yves 1916 0-1 22471 Van Ael, Bert 1912
+3 27782 De Borggraef, Thibaud 1850 1-0 4812 Dubin, Tim 1822
+4 9342 De Bouver, Guido 1849 ½-½ 93637 Schurins, Thomas 1776
+< 1897 > 2.5 - 1.5 < 1888 >
+Afdeling: 4 Serie: G
+230 Leuven 3 Opwijk 3 261
+1 17256 Van Praag, Bart 1825 ½-½ 1929 Van De Perre, Tom 2004
+2 13286 Vervaet, Bart 1823 ½-½ 51578 Van Peer, Cedric 1978
+3 24422 Van Noten, Stijn 1821 0-1 9059 Janssens, Carlo 1965
+4 13279 De Witte, Stein 1742 ½-½ 11034 De Block, Fabio 1885
+< 1803 > 1.5 - 2.5 < 1958 >
+Afdeling: 4 Serie: G
+244 Brussels CC 2 Boitsfort 3 239
+1 40924 Grodent, Gerald 2055 1-0 60319 Czuczai, Jeno 2051
+2 95052 Zamparo, Sergio 2050 1-0 78719 Thiel, Michael 1863
+3 87912 Mattheys, Eddy 1957 ½-½ 86398 Cottenier, Christophe 1859
+4 60670 Ronse, Ivan 1956 1-0 86045 Herpigny, Yves 1698
+< 2005 > 3.5 - 0.5 < 1868 >
+Afdeling: 4 Serie: G
+174 Brasschaat 4 Woluwe 2 229
+1 29602 Van Hille, Reinout 1845 0-1 68497 Rauta, Nicolas 1971
+2 62715 Moors, Marc 1843 1-0 28207 Van Melsen, Raymond 1859
+3 49824 De Smet, Tristan 1637 1-0 85545 Gilbert, Colin 1809
+4 11353 Pauwels, Evert 1624 ½-½ 78697 Frederiksen, Jens 1754
+< 1737 > 2.5 - 1.5 < 1848 >
+Afdeling: 4 Serie: H
+192 Lier 2 DT Leuven 2 231
+1 47104 Bes, Nikolaas 1735 0-1 10942 Pirard, Natan 1917
+2 50423 Van Den Brande, Patrick 1722 ½-½ 10546 Van Den Bosch, Arno 1812
+3 51446 Appeltans, Simon 1667 ½-½ 31895 Maesschalck, Vincent 1775
+4 21041 Laporte, Erik 1665 ½-½ 21997 Roosen, Stefan 1765
+< 1697 > 1.5 - 2.5 < 1817 >
+Afdeling: 4 Serie: H
+713 Leopoldsburg 1 Oude God 3 132
+1 10946 Akulov, Lev 1696 0-1 14229 Bal, Bert 1708
+2 10949 Akulova, Alicia 1552 0-1 35092 Pattyn, Luc 1699
+3 13297 Akulov, Mikhail 1337 0-1 19691 De Meyer, Jef 1650
+4 14197 Maas, Willem 1214 0-1 47333 Cauwenberghs, Kenneth 1568
+< 1450 > 0 - 4 < 1656 >
+Afdeling: 4 Serie: H
+114 Mechelen 3 Brasschaat 5 174
+1 14844 Romkes, Abel 1957 1-0 12370 Osinga, Angelique 1960
+2 13703 Novakovic, Velibor 1901 0-1 14187 Holwijn, Melvin 1952
+3 12581 Van Vaek, Constant 1785 0-1 12836 Osinga, Andre 1623
+4 15725 Carlier, Freddy 1746 1-0 10500 Carpentier, Julian 1581
+< 1847 > 2 - 2 < 1779 >
+Afdeling: 4 Serie: H
+230 Leuven 4 Schilde 1 134
+1 14013 Wuytens, Robin 1824 1-0 39101 Van Hoofstat, Sam 1921
+2 33138 Wouters, Maarten 1732 1-0 99829 Beckers, Jurgen 1892
+3 20206 Smet, Geert 1667 1-0 48968 Jacobs, Paul 1640
+4 14375 Jankowski, Edsel 1254 ½-½ 11329 Snyers, Pieter 1501
+< 1619 > 3.5 - 0.5 < 1739 >
+Afdeling: 4 Serie: H
+244 Brussels CC 3 Geel 2 135
+1 13384 Duringer, Valentin 2028 ½-½ 11221 Tuerlinckx, Ben 2050
+2 75701 D'Hayere, Arnaud 1815 1-0 45560 Ingelaere, Tijl 1762
+3 86941 Haulotte, Francois 1681 ½-½ 29394 Van Dyck, Evi 1756
+4 15261 De Smet, Karl 1658 ½-½ 57584 Ingelaere, Arthur 1598
+< 1796 > 2.5 - 1.5 < 1792 >
+Afdeling: 4 Serie: H
+182 Noorderwijk 1 Midden-Limburg 3 727
+1 41742 Heylen, Joris 1993 ½-½ 99398 Colemont, Patrick 1914
+2 3239 Rogmans, Jelle 1972 ½-½ 40525 Indemans, Rudi 1817
+3 27243 Geukens, Staf 1672 0-1 53163 Reenaers, Johan 1773
+4 12080 Mesens, Patrick 1473 0-1 18261 Picard, Herve 1654
+< 1778 > 1 - 3 < 1790 >
+Afdeling: 5 Serie: A
+518 Soignies 2 Caissa Europe 4 548
+1 13305 El Kadi, Ismael 1751 1-0 13435 Abrassart, Pierre-Christopher 1720
+2 67521 Hennico, Benoit 1607 ½-½ 13445 Godart, Dorian 1708
+3 68781 Lebedew, Georges 1499 1-0 60726 De Le Court, Lucas 1689
+4 67971 Lepape, Philippe 1432 0-1 13468 Akuatse, Angel Kaleb 1562
+< 1572 > 2.5 - 1.5 < 1670 >
+Afdeling: 5 Serie: A
+511 La Louvière 1 Leuze 2 541
+1 57959 Pegoretti, Franco 1963 ½-½ 15791 Demuys, Maxime 1868
+2 73512 Carella, Francesco 1615 ½-½ 15825 Wadoux, Philippe 1717
+3 14337 Sahakyan, Andranik 1518 0-1 65366 Cotton, Laurent 1554
+4 14304 Di Pronio, Mario 1400 1-0 14602 Masson, Antoine 1234
+< 1624 > 2 - 2 < 1593 >
+Afdeling: 5 Serie: A
+549 Saint-Ghislain 1 CREC 4 501
+1 98232 Haelewyck, Michel 1609 0-1 68721 Gregorio, Santiago 1812
+2 98501 Fizaine, Etienne 1537 0-1 94099 Majewski, Philippe 1750
+3 78662 Jorgensen, Christian 1394 ½-½ 70033 Rorive, Alain 1197
+4 74756 Giuliani, Oswald 1303 1-0 14092 Stallaert, Annick 1153
+< 1461 > 1.5 - 2.5 < 1478 >
+Afdeling: 5 Serie: A
+538 Fleurus 3 Anderlues 1 525
+1 84077 Claude, Julien 1379 0-1 98146 Henrotte, Christian 1619
+2 13057 Politi, Fabien 1329 1-0 97520 Majewski, Maryian 1550
+3 66206 Andre, Patrick 1222 1-0 10874 Abrassart, Agnes 1162
+4 10989 Grobelny, Melodie 1200 0-1 10886 Anthoine, Franz 1155
+< 1283 > 2 - 2 < 1372 >
+Afdeling: 5 Serie: A
+514 Fontaine 5 Auvelais 1 902
+1 71684 Russo, Italo 1468 0-1 15136 Essomba, Thomas 1500
+2 60673 Kellner, Yohan 1435 1-0 96740 Saey, David 1305
+3 73644 Vanhorick, Ludovic 1426 1-0 84301 Legros, Frederic 1304
+4 97627 Loes, Pierre 1416 1-0 64106 Marchal, Michel 1150
+< 1436 > 3 - 1 < 1315 >
+Afdeling: 5 Serie: A
+514 Fontaine 4 Tournai 2 521
+1 79774 Colilli, Lorenzo 1752 ½-½ 98118 Heynen, Martin 1860
+2 59561 Thirion, Benoit 1674 0-1 82333 Gueuning, Thomas 1720
+3 14099 Ta Long, Vu 1661 ½-½ 84824 Meurisse, Enguerran 1680
+4 14365 Guerit, Justin 1570 1-0 71137 Drossart, Jonathan 1580
+< 1664 > 2 - 2 < 1710 >
+Afdeling: 5 Serie: B
+518 Soignies 3 Philippeville 2 909
+1 82856 Delvaux, Guy 1465 0-1 77381 Albert, Julien 1709
+2 94935 Chabeau, Patrice 1450 0-1 82163 Godart, Michel 1699
+3 10690 Van Eesbeek, Michel 1433 ½-½ 14971 Regnier, Cedric 1612
+4 85987 Flabat, Renaud 1387 1-0 10297 Godart, Clara 1400
+< 1434 > 1.5 - 2.5 < 1605 >
+Afdeling: 5 Serie: B
+511 La Louvière 2 Leuze 3 541
+1 60545 Van Der Linden, Michael 1508 0-1 84735 Decellier, Patrick 1829
+2 66729 Kingunia, Claude 1407 ½-½ 79596 Clerquin, Constant 1509
+3 14378 Martin, Simon 1306 1-0 10648 Decellier, Lise 1157
+4 14298 Drappa, Francesco 1155 1-0 60106 Rawinski, Jean-Luc 1154
+< 1344 > 2.5 - 1.5 < 1412 >
+Afdeling: 5 Serie: B
+953 Nivelles 1 CREC 5 501
+1 93599 Grijp, Peter 1982 1-0 82376 Denivet, Axel 1858
+2 97301 Monnier, Samuel 1588 0-1 92916 Leloutre, Bernard 1772
+3 85405 Alleaume, Christophe 1444 0-1 10554 Delescaille, Laurent 1727
+4 14300 Murphy, Raphael 1169 0-1 90638 Demat, Olivier 1705
+< 1546 > 1 - 3 < 1766 >
+Afdeling: 5 Serie: B
+548 Caissa Europe 5 Anderlues 2 525
+1 82945 Bousmanne, Christophe 1790 ½-½ 10295 Henrotte, Corentin 1689
+2 15766 Cappelier, Donovan 1561 1-0 13265 Goffin, Kevin 1589
+3 15816 Claudon, Andreas 1560 1-0 12730 Meulenyzer, Alan 1390
+4 67598 Dufour, Jerome 1491 0-1 60675 Rosik, Gauthier 1352
+< 1601 > 2.5 - 1.5 < 1505 >
+Afdeling: 5 Serie: B
+418 Geraardsbergen 2 Auvelais 2 902
+1 19135 Flamee, Dirk 1697 ½-½ 61344 Hardy, Cedric 1775
+2 19208 Matthijs, Luc 1598 1-0 85472 Van Bael, Pascal 1659
+3 14612 Choijamts, Odhuu 1433 1-0 77828 Bussola, Eric 1571
+4 36927 Van De Velde, Georges 1376 ½-½ 97782 Laret, Jean 1501
+< 1526 > 3 - 1 < 1627 >
+Afdeling: 5 Serie: B
+514 Fontaine 6 Tournai 3 521
+1 71625 Boreux, Philippe 1662 1-0 77771 Ghislain, Jean-Pierre 1421
+2 64548 Montagne, Jean-Claude 1639 ½-½ 12782 Thulier, Vincent 1375
+3 57193 Barbarossa, Frederic 1638 ½-½ 14820 Hentiens, Guillaume 1251
+4 63371 Dejasse, Daniel 1540 1-0 13807 Tytgat, Thibaut 1190
+< 1620 > 3 - 1 < 1309 >
+Afdeling: 5 Serie: C
+601 CRELEL 5 BYE 0
+1 -
+2 -
+3 -
+4 -
+ -
+Afdeling: 5 Serie: C
+901 Namur 5 Wirtzfeld 5 627
+1 34185 Poth, Heribert 1461 0-1 99031 Schleck, Victor 1619
+2 50962 Mariavelle, Roland 1424 1-0 96521 Lauckner, Harry 1434
+3 15002 Corbugy, Dominique 1305 0-1 13008 Van Gheluwe, Frank 1223
+4 15004 Corbugy, Sacha 1300 1-0 13010 Van Gheluwe, Robbe 1155
+< 1373 > 2 - 2 < 1358 >
+Afdeling: 5 Serie: C
+604 KSK47-Eynatten 5 CREC 6 501
+1 95070 Bieberle, Gerhart 1931 1-0 78549 Soretti, Vincenzo 1498
+2 95818 Singh, Marcel 1919 1-0 60174 Jamar, Marc 1479
+3 15687 Wertz, Heinrich 1674 1-0 15248 Lorge, Jerome 1355
+4 13319 Gronsfeld, Stefan 1539 0-1 15731 Bressan, Guillaume 1005
+< 1766 > 3 - 1 < 1334 >
+Afdeling: 5 Serie: C
+538 Fleurus 4 Amay 5 618
+1 62901 Pieroni, Severino 1710 1-0 61352 Fouarge, Albert 1487
+2 73687 Artisien, Christian 1600 ½-½ 13440 Gheury, Arnaud 1375
+3 80195 Auquier, Yvan 1597 0-1 12774 Bikady, Luka 1317
+4 15927 Mousty, Gerald 1152 1-0 12834 Gheury, Hugo 1155
+< 1515 > 2.5 - 1.5 < 1334 >
+Afdeling: 5 Serie: C
+607 KSK Rochade 5 Marche 3 810
+1 10653 Roessler, Nicolas 1542 1-0 88331 Mikolajezak, Dominique 1678
+2 10659 Roessler, Christian 1376 0-1 68098 Dubois, Theo 1665
+3 12982 Lassoie, Gauthier 1200 0-1 92428 Demelenne, Etienne 1581
+4 12093 Lemaire, Noe 1196 0-1 14202 Destine, Jonathan 1328
+< 1329 > 1 - 3 < 1563 >
+Afdeling: 5 Serie: C
+712 Landen 2 Midden-Limburg 4 727
+1 14893 Pierle, Willem 1785 ½-½ 12667 Kumpen, Jona 1618
+2 60241 Charles, Freddy 1691 1-0 13618 Kumpen, Kurt 1423
+3 14530 Snyers, Antoine 1650 1-0 11485 Conte, Roberto 1420
+4 14015 Caers, Gert 1590 ½-½ 15411 Naso, Roberto 1112
+< 1679 > 3 - 1 < 1393 >
+Afdeling: 5 Serie: D
+601 CRELEL 6 Welkenraedt 2 619
+1 14450 Heldenbergh, Nils 1182 ½-½ 14983 Kovacevic, Ivica 1635
+2 10977 Collignon, Theo 1176 0-1 70327 Collignon, Fabrice 1535
+3 10983 Collignon, Clement 1175 0-1 15699 Giesen, Werner 1455
+4 60581 Gerard, Olivier 1151 0-1 50168 Vinagre-Ferreira, Roger 1414
+< 1171 > 0.5 - 3.5 < 1510 >
+Afdeling: 5 Serie: D
+641 Malmedy 1 Wirtzfeld 6 627
+1 60264 Ancion, Merowig 1988 1-0 97849 Kulla, Werner 2039
+2 14158 Bode, Dorel-Ion 1987 ½-½ 13024 Thomas, Walter 1652
+3 14186 Wansart, Thomas 1486 1-0 14368 Haendler, Fabian 1454
+4 14181 Depresseux, Cedric 1150 0-1 15028 Leyendecker, Hubert 1099
+< 1653 > 2.5 - 1.5 < 1561 >
+Afdeling: 5 Serie: D
+604 KSK47-Eynatten 6 Ans 2 621
+1 99945 Fryns, Patrick 1796 1-0 75329 Ledouppe, Etienne 1469
+2 99791 Weiss, Philippe 1613 ½-½ 66427 Lafosse, Marcel 1449
+3 98612 Jenniges, Klaus 1218 ½-½ 12393 D'Amico, Baptiste 1312
+4 95094 Heinertz, Sandro 1149 1-0 15319 Hbali, Mohamed 1090
+< 1444 > 3 - 1 < 1330 >
+Afdeling: 5 Serie: D
+609 Seraing 1 Herve 2 622
+1 75311 Wilmain, Dimitri 1602 ½-½ 91529 Lauwaet, Stephane 1822
+2 87831 Cultiaux, Pierre 1589 ½-½ 65099 Demblon, Jean-Luc 1663
+3 15462 Louppe, Patrice 1001 0-1 65277 Proumen, Thomas 1513
+4 14377 Mathonet, Corentin 1000 1-0 60298 Wilkin, Annette 1190
+< 1298 > 2 - 2 < 1547 >
+Afdeling: 5 Serie: D
+607 KSK Rochade 7 Eisden/MSK-Dilsen 3 703
+1 95051 Basic, Fiko 1627 1-0 14265 Montforts, Ton 1612
+2 99554 Zagozen, Franc 1568 ½-½ 37702 Sarrechia, Benito 1542
+3 13406 Abubakirov, Khumid 1549 1-0 14745 Heylen, Leo 1469
+4 10349 Bosten, Ralph 1514 1-0 10664 Metonidze, Andre 1418
+< 1565 > 3.5 - 0.5 < 1510 >
+Afdeling: 5 Serie: D
+607 KSK Rochade 6 KSK Rochade 8 607
+1 98922 Belet, Artium 1364 1-0 10807 Halm, Andreas 1608
+2 13942 Pieper, Theo 1360 ½-½ 94285 Doetjes, Rienk 1468
+3 14379 Pieper, Dirk 1277 1-0 97802 Scheen, Pascal 1295
+4 12090 Reinartz, Ben 1199 1-0 20893 Koep, Erich 1278
+< 1300 > 3.5 - 0.5 < 1412 >
+Afdeling: 5 Serie: E
+714 Overpelt 2 DT Leuven 3 231
+1 14427 Englicky, Pavel 1595 ½-½ 14016 Michielsen, Kobus 1620
+2 14683 Van Leuken, Thorben 1170 0-1 11994 Deniz, Patrick 1226
+3 14024 Van Leuken, Troy 1169 0-1 10697 Rits, Beere 1151
+4 13976 Jeurissen, Brent 1168 0-1 14507 Michielsen, Lies 1150
+< 1276 > 0.5 - 3.5 < 1287 >
+Afdeling: 5 Serie: E
+166 TSM 3 Pantin 2 278
+1 27201 Corbeel, Louis 1381 1-0 89460 De Merode, Rodolphe 1820
+2 15749 Vanroy, Jari 1199 ½-½ 14795 Scoccianti, Raffaele 1819
+3 15746 Wabbes, Kobe 1105 0-1 77054 Pauwels, Christophe 1817
+4 15916 Keustermans, Karel 1102 0-1 70645 Cappon, Kaan 1795
+< 1197 > 1.5 - 2.5 < 1813 >
+Afdeling: 5 Serie: E
+604 KSK47-Eynatten 7 Ans 3 621
+1 50210 Roefe, Detlef 1898 0-1 84671 Vagner, Fabian 1851
+2 20885 Paulus, Werner 1591 ½-½ 91201 Manne, Jean-Luc 1752
+3 98744 Hermens, Jurgen 1155 0-1 14132 Massay, Sarah 1642
+4 15446 Breitkopf-Lazar, Patrick 1129 0-1 82775 Mollica, Antonio 1571
+< 1443 > 0.5 - 3.5 < 1704 >
+Afdeling: 5 Serie: E
+230 Leuven 5 Mechelen 4 114
+1 11764 Peers, Wim 1594 ½-½ 5703 Jonckers, Marie-Jeanne 1511
+2 15459 Talloen, Bert 1367 0-1 11949 Barsegjan, Anusavan 1487
+3 10882 De Keyser, Eric 1152 0-1 13163 Leboy, Robbe 1352
+4 11237 Van Den Berg, Anant 1149 1-0 15316 Dewitte, Simon 1350
+< 1316 > 1.5 - 2.5 < 1425 >
+Afdeling: 5 Serie: E
+244 Brussels CC 4 666 1 666
+1 63410 Goetgeluck, Gerald 1884 ½-½ 70378 Sauvage, Eric 1980
+2 63274 Fox, Pierre 1751 1-0 74748 Szigetvari, Andre 1711
+3 78689 Citti, Pierre 1721 ½-½ 17370 Hubert, Rene 1529
+4 72362 Lefevre, Stephane 1627 1-0 63762 Pitz, Luc 1444
+< 1746 > 3 - 1 < 1666 >
+Afdeling: 5 Serie: E
+712 Landen 3 BYE 0
+1 -
+2 -
+3 -
+4 -
+ -
+Afdeling: 5 Serie: F
+192 Lier 3 BYE 0
+1 -
+2 -
+3 -
+4 -
+ -
+Afdeling: 5 Serie: F
+162 Mol 1 Oude God 4 132
+1 21415 Nuyens, John 1842 1-0 11611 Lauwers, Rudi 1462
+2 32301 Janssen, Paul 1688 1-0 32221 Vancoppenolle, Ghislain 1444
+3 27324 Hooyberghs, Benny 1618 0-1 15694 Engelmann, Yannick 1400
+4 14973 Mertens, Lesley 1008 ½-½ 53180 Durieux, Frank 1335
+< 1539 > 2.5 - 1.5 < 1410 >
+Afdeling: 5 Serie: F
+114 Mechelen 5 Deurne 3 124
+1 42871 De Winter, Kevin 1691 0-1 20290 Francois, Pascal 1653
+2 15005 Boonen, Maarten 1496 ½-½ 11339 Leyssen, Guido 1625
+3 15269 Dauw, Sterre 1192 ½-½ 24961 Vilarnau, Enrique 1584
+4 13839 Vermaercke, Reinout 1186 ½-½ 95604 Weynen, John 1499
+< 1391 > 1.5 - 2.5 < 1590 >
+Afdeling: 5 Serie: F
+707 Tessenderlo 1 Mechelen 6 114
+1 31186 Cluyts, Marc 1947 0-1 15909 Hashem, Ihab 1600
+2 3336 De Wel, Herman 1837 1-0 48127 De Geest, Jan 1599
+3 3387 Kiebooms, Julien 1713 1-0 52035 Vanden Eede, Pascal 1424
+4 59960 Ulburghs, Piet 1685 1-0 8664 Cools, Jos 1272
+< 1796 > 3 - 1 < 1474 >
+Afdeling: 5 Serie: F
+174 Brasschaat 6 Geel 3 135
+1 46281 Baete, Guy 1814 ½-½ 13307 Habraken, Erik 1753
+2 25585 Szoeke, Harry 1684 ½-½ 37427 Vlaeyens, Manu 1608
+3 58424 Berghs, Hilde 1552 1-0 11914 Van Beek, Ronald 1267
+4 30066 De Cock, Cesar 1289 1-0 22802 Vanelven, Alfons 1217
+< 1585 > 3 - 1 < 1461 >
+Afdeling: 5 Serie: F
+185 Lille 1 Westerlo 2 176
+1 4537 Zenuni, Safet 1774 ½-½ 38369 Goossens, Francis 1727
+2 55981 Bertels, Paul 1767 1-0 34533 De Vet, Sylvin 1529
+3 57029 Embrechts, Jef 1662 ½-½ 47392 Beheydt, Dries 1426
+4 49654 Vervloet, Staf 1627 1-0 1635 Gijsen, Patrick 1204
+< 1708 > 3 - 1 < 1472 >
+Afdeling: 5 Serie: G
+192 Lier 4 Brasschaat 8 174
+1 30996 Panagamuwa Gamage, Suranga R 1459 ½-½ 9199 Laporte, Pol 1781
+2 14950 Verheyen, Thomas 1283 0-1 29513 Van Hille, Siegfried 1530
+3 12810 Devolder, Eduard 1152 1-0 10792 Van Hille, Frederic 1150
+4 14428 Van De Vel, Merten 1018 ½-½ 12735 Van Hille, Clara 1149
+< 1228 > 2 - 2 < 1403 >
+Afdeling: 5 Serie: G
+166 TSM 4 Oude God 5 132
+1 24597 Ducaert, Frederik 1700 ½-½ 13464 Torfs, Gert 1489
+2 37982 Beazar, Karel 1687 0-1 14263 Van Amerongen, Mart 1467
+3 11752 Van Simaeys, Axel 1386 1-0 13080 Goris, Jeremy 1369
+4 15754 Peeters, Ward 1200 1-0 12187 De Smet, Ruben 1150
+< 1493 > 2.5 - 1.5 < 1369 >
+Afdeling: 5 Serie: G
+114 Mechelen 8 Deurne 4 124
+1 47155 Bosmans, Mark 1523 1-0 40843 Cop, Camille 1733
+2 15997 Baert, Bart 1518 ½-½ 14358 Verachtert, Marc 1480
+3 10356 Pevar, John 1436 1-0 41131 Bruynseels, Roger 1472
+4 10204 Lequesne, Annie 1324 0-1 15788 Roegiers, Ludo 1200
+< 1450 > 2.5 - 1.5 < 1471 >
+Afdeling: 5 Serie: G
+101 KASK 2 Mechelen 7 114
+1 14303 Vander Voort, Patrick 1450 0-1 12997 De Bock, Thijs 1711
+2 15048 Gherbi, Reda 1400 0-1 10399 Van Dijck, Bjarne 1498
+3 14113 Hooybergs, Jan 1395 ½-½ 11964 Lambrecht, Arne 1400
+4 15677 De Heer, Frederick 1250 1-0 14506 De Boe, Joppe 1399
+< 1374 > 1.5 - 2.5 < 1502 >
+Afdeling: 5 Serie: G
+130 Hoboken 3 Geel 4 135
+1 15747 Hopman-Been, Rob 1946 1-0 10943 Steegmans, Pieter 1387
+2 51195 De Hert, Oliver 1893 1-0 10416 Van De Sande, Jorn 1370
+3 14341 Van Der Graaf, Andre 1888 1-0 12759 Steegmans, Wouter 1179
+4 14112 Huizer, Robert 1516 1-0 15533 Steegmans, Wim 1093
+< 1811 > 4 - 0 < 1257 >
+Afdeling: 5 Serie: G
+143 Temse 4 Brasschaat 7 174
+1 95543 Wynants, Marcel 1697 0-1 13499 Aguillon, Dolrish 1558
+2 48623 Vereecken, Bart 1649 0-1 11418 Beukema, Christiaan 1528
+3 44482 Stuer, Hugo 1622 ½-½ 12445 Raats, Joppe 1468
+4 49140 Blommaert, Laura 1347 1-0 12522 Beukema, Constantijn 1352
+< 1579 > 1.5 - 2.5 < 1477 >
+Afdeling: 5 Serie: H
+190 Burcht 1 BYE 0
+1 -
+2 -
+3 -
+4 -
+ -
+Afdeling: 5 Serie: H
+436 LSV-Chesspirant 3 Brasschaat 9 174
+1 64793 Zaman, Roger 1658 0-1 41271 Cankja, Ylli 1616
+2 14071 Laureys, Jo 1446 0-1 57789 Van Camp, Koen 1560
+3 15938 Bosteels, Gaspard 1443 0-1 12738 Mitran, Marie 1513
+4 12928 Boudry, Rik 1329 0-1 13441 Mitran, Ovi 1398
+< 1469 > 0 - 4 < 1522 >
+Afdeling: 5 Serie: H
+128 Beveren 2 Deurne 5 124
+1 752 Boons, Lucien 1505 0-1 46558 De Cock, Ronny 1699
+2 4332 De Boel, Joren 1480 1-0 13225 Douwen, Chris 1210
+3 15045 Cassimon, Hugo 1147 0-1 12551 Van Dyck, Yannick 1182
+4 13172 Verbruggen, David 1145 1-0 12563 Van Tendeloo, Maria 1151
+< 1319 > 2 - 2 < 1311 >
+Afdeling: 5 Serie: H
+230 Leuven 6 Mechelen 9 114
+1 12995 D'hooge, Bertram 1399 1-0 52256 Permentier, Guido 1752
+2 13138 Vanoverloop, Rune 1398 0-1 22870 Goderis, Wim 1633
+3 13563 Dunford, Nils 1150 0-1 12661 Huyck, Walter 1587
+4 14490 Kovalyov, Slava 1144 0-1 14339 De Maeyer, Arnold 1351
+< 1273 > 1 - 3 < 1581 >
+Afdeling: 5 Serie: H
+130 Hoboken 4 LSV-Chesspirant 4 436
+1 6769 Dupont, Paul 1653 0-1 10937 Van Malder, Klaus 1572
+2 10832 Maerevoet, Sim 1510 1-0 26085 Marchand, Geoffrey 1236
+3 14108 Godde, Matthias 1503 1-0 24147 Ingels, Nick 1194
+4 14808 Barsegian, Michael 1300 1-0 14267 Feys, Elias 1185
+< 1492 > 3 - 1 < 1297 >
+Afdeling: 5 Serie: H
+143 Temse 5 KGSRL 9 401
+1 14176 Vandermeiren, Marc 1698 1-0 14656 Cattoir, Harry 1680
+2 15327 Lopes Cardoso, Raphael 1151 ½-½ 50245 Petit, Emilien 1526
+3 14386 Follesa, Enrico 1138 1-0 50090 Lippens, Leon 1256
+4 15331 Lopes Cardoso, Miguel 1124 0-1 14430 Lauwereys, Luc 1011
+< 1278 > 2.5 - 1.5 < 1368 >
+Afdeling: 5 Serie: I
+462 Zottegem 6 BYE 0
+1 -
+2 -
+3 -
+4 -
+ -
+Afdeling: 5 Serie: I
+436 LSV-Chesspirant 5 Willebroek 1 172
+1 11125 Bondroit, Stef 1549 1-0 12891 Cornelis, Leon 1434
+2 15427 Sonck, Jo 1189 0-1 43231 Braet, Jozef 1400
+3 15321 Sonck, Lisa 1188 1-0 15491 Buggenhoudt, Andre 1258
+4 15174 Decruyenaere, Pierre-Stephane 1179 0-1 14903 Van Gas, Rik 1000
+< 1276 > 2 - 2 < 1273 >
+Afdeling: 5 Serie: I
+114 Mechelen 10 Humbeek 2 260
+1 13926 Dirkx, Gert 1664 1-0 99178 Debelie, Geert 1680
+2 11958 De Borggraef, Leon 1483 1-0 96491 Van Steenwinckel, Hugo 1615
+3 13921 Cuyx, Tomas 1449 0-1 58190 Portier, William 1536
+4 13548 Deputter, Manu 1208 0-1 12693 De Schouwer, Jonas 1340
+< 1451 > 2 - 2 < 1543 >
+Afdeling: 5 Serie: I
+401 KGSRL 10 Opwijk 4 261
+1 46221 Phlips, Stefaan 1421 0-1 14118 Heymans, Peter 1629
+2 13027 Phlips, Ewout 1390 0-1 14835 Koornstra, Robbert-Jan 1494
+3 13614 Phlips, Daan 1200 0-1 13157 Caudron, Meindert 1254
+4 13025 Phlips, Kobe 1147 0-1 13055 Cotman, Bernd 1169
+< 1290 > 0 - 4 < 1387 >
+Afdeling: 5 Serie: I
+130 Hoboken 5 Brasschaat 10 174
+1 37168 Vennekens, Camiel 1881 0-1 15061 Sprong, Pia 1594
+2 11622 Lavet, Theo 1694 1-0 15063 Oxener, Aldo 1545
+3 11592 Huysmans, Pierre 1493 1-0 19585 Boersma, Cees 1535
+4 44911 Coenen, Tom 1416 0-1 54984 Cauwenberg, Cyriel 1466
+< 1621 > 2 - 2 < 1535 >
+Afdeling: 5 Serie: I
+193 Boom 1 Dendermonde 2 425
+1 60330 Smet, Danny 1817 1-0 62316 De Vriendt, Augustin 1532
+2 13446 Wauters, Robby 1337 1-0 10346 Smet, Peter 1285
+3 13469 De Bruyn, Wim 1304 1-0 15643 Adriaens, Frederic 1020
+4 14381 Smet, Jens 1050 0-1 15639 Van Den Dries, Jurgen 1016
+< 1377 > 3 - 1 < 1213 >
+Afdeling: 5 Serie: J
+462 Zottegem 7 Europchess 4 226
+1 2640 Temmerman, Hans 1729 1-0 94587 Abrahamsen, Jesper 1729
+2 13365 Ghyselen, Tim 1547 1-0 15570 Gkionis, Athanasios-Nektarios 1667
+3 11838 Goossens, Charle 1401 ½-½ 58017 Gatta, Bruno 1381
+4 12936 Vanhauwere, Anton 1211 0-1 60625 Abrahamsen, Nikolaj 1268
+< 1472 > 2.5 - 1.5 < 1511 >
+Afdeling: 5 Serie: J
+201 CREB 4 Pantin 3 278
+1 13350 Moreno, David 1716 0-1 66184 Dohogne, Yves 1976
+2 15122 Kokolakis, Panagiotis 1443 1-0 71323 Kuborn, Antoine 1587
+3 14668 Calvo Ivanova, Andres 1225 0-1 14772 Elinckx, Michel 1407
+4 14274 Micciche, Ruben 1203 0-1 15675 Mc Coll, Max 1204
+< 1397 > 1 - 3 < 1544 >
+Afdeling: 5 Serie: J
+418 Geraardsbergen 3 Humbeek 3 260
+1 89613 Verbeque, Roger 1657 ½-½ 99582 Buelens, Roger 1480
+2 39489 Lefebvre, Willy 1552 ½-½ 50152 Van Roy, Arno 1341
+3 64068 Deschuyteneer, Lucien 1425 1-0 13908 De Grauwe, Daniel 1339
+4 14918 Vandervennet, Michel 1093 0-1 12640 Verschueren, Dirk 1150
+< 1432 > 2 - 2 < 1328 >
+Afdeling: 5 Serie: J
+209 TBCC 3 Excelsior 2 204
+1 8877 Campeert, Julien 1854 1-0 2941 Gervais, Jacques 1601
+2 74888 Brion, Philippe 1819 1-0 15365 Broeker, Simone 1514
+3 60468 Sohet, Cedric 1760 1-0 87611 Nica, Radu-Catalin 1457
+4 67164 Rando, Manuel 1598 ½-½ 77275 Azzoug, Samir 1412
+< 1758 > 3.5 - 0.5 < 1496 >
+Afdeling: 5 Serie: J
+244 Brussels CC 5 Boitsfort 4 239
+1 7013 Van De Craen, Piet 1600 1-0 46302 Van Mol, Yves 1518
+2 13368 Yoro, Samuel 1200 1-0 60620 Heynsmans, Michel 1393
+3 14712 Grobli-Casimir, Davy 1195 0-1 14019 Simon, Fernand 1356
+4 15147 Hossain, Issa 1190 0-1 12898 Nagy, Peter 1312
+< 1296 > 2 - 2 < 1395 >
+Afdeling: 5 Serie: J
+207 2 Fous Diogène 2 Halle 1 233
+1 15346 Dongo, Wezou Henri 1880 1-0 353 Maeckelbergh, Anne-Marie 1882
+2 14151 Ols, Kevin 1724 ½-½ 26816 Van Duuren, Louis 1881
+3 14155 Arshakyan, Meruzhan 1656 1-0 43346 Van Der Voorde, Sonja 1547
+4 13506 Tyrpak, Leo 1110 0-1 15482 Huysman, Robert 1523
+< 1593 > 2.5 - 1.5 < 1708 >
+Afdeling: 5 Serie: K
+462 Zottegem 8 Jean Jaurès 3 402
+1 11846 Rottiers, Brent 1296 0-1 50504 Vanlooy, Noel 1805
+2 10467 Goossens, Henri 1175 0-1 56553 Meignen, Gaetan 1665
+3 12940 Gabriels, Ebe 1163 0-1 22942 Cant, Gert 1499
+4 15383 Ismail, Mahmoud 1162 0-1 13899 Vandevelde, Koen 1497
+< 1199 > 0 - 4 < 1617 >
+Afdeling: 5 Serie: K
+436 LSV-Chesspirant 7 St.-Amandsberg 3 472
+1 4561 Claeye, Guido 1580 0-1 8401 Dhooge, Achiel 1606
+2 12451 Thienpont, Xander 1200 ½-½ 11709 Vermeersch, Chris 1595
+3 14625 De Rycke, Tyani 1199 1-0 14392 Debunne, Lasse 1149
+4 12727 Van Goethem, Simone 1181 1-0 15819 Tempels, Robbe 1148
+< 1290 > 2.5 - 1.5 < 1375 >
+Afdeling: 5 Serie: K
+422 MSV 3 KGSRL 12 401
+1 10626 Van Damme, Patrick 1750 ½-½ 52213 Baekelandt, Els 1653
+2 98226 Haers, Luc 1592 ½-½ 14510 Deleu, Ellen 1153
+3 21971 Facchin, Ronald 1529 ½-½ 14521 Deleu, Karen 1151
+4 11922 Smekens, Ann 1151 ½-½ 14517 Deleu, Leen 1150
+< 1506 > 2 - 2 < 1277 >
+Afdeling: 5 Serie: K
+475 Aalter 2 Wetteren 4 432
+1 38237 Callant, Geert 1858 ½-½ 13642 Van Autreve, David 1549
+2 43184 Hautekeete, Johan 1737 1-0 14755 Hulpiau, Joshua 1479
+3 47341 De Lathouwer, Marc 1732 1-0 15653 Jafar, Mohamad 1005
+4 45900 Vandekerckhove, Ava 1466 1-0 14137 Smet, Lars 1004
+< 1698 > 3.5 - 0.5 < 1259 >
+Afdeling: 5 Serie: K
+0 BYE LSV-Chesspirant 6 436
+1 -
+2 -
+3 -
+4 -
+ -
+Afdeling: 5 Serie: K
+401 KGSRL 11 Artevelde 2 465
+1 6190 Traest, Philip 1441 0-1 22161 Bauwens, Steven 1707
+2 27189 Dooms, Vincent 1367 0-1 12289 Wielfaert, Koen 1460
+3 21989 Vandecasteele, Reimond 1324 ½-½ 47571 De Keere, Jacques 1408
+4 24015 Picqueur, Eric 1187 0-1 22071 De Scheemacker, Peter 1352
+< 1330 > 0.5 - 3.5 < 1482 >
+Afdeling: 5 Serie: L
+462 Zottegem 9 BYE 0
+1 -
+2 -
+3 -
+4 -
+ -
+Afdeling: 5 Serie: L
+313 Waregem 3 Deinze 1 438
+1 71561 Haverbeke, Jean-Pierre 1460 0-1 11572 Lenders, Ivan 1970
+2 13723 Wittevrongel, Jarith 1006 1-0 11541 De Baets, Christof 1753
+3 14929 Montaine, Tanguy 1005 0-1 36455 Soens, Steven 1649
+4 14948 De Meerleer, Jeroen 1003 0-1 11658 Tack, Mikael 1590
+< 1119 > 1 - 3 < 1741 >
+Afdeling: 5 Serie: L
+422 MSV 4 KGSRL 13 401
+1 8176 De Wit, Hendrik 1610 ½-½ 35891 Inghelbrecht, Veronique 1475
+2 14237 Goederson, Martijn 1150 ½-½ 3794 Van Den Abeele, Veerle 1361
+3 13162 Liveyns, Rune 1147 1-0 32557 Klijsen, Yvonne 1204
+4 13313 Liveyns, Bjarne 1146 0-1 36111 Roels, Robert 1154
+< 1263 > 2 - 2 < 1299 >
+Afdeling: 5 Serie: L
+475 Aalter 3 Tielt 1 304
+1 10186 Demey, Robbe 1784 1-0 9989 Delafontaine, Brant 1863
+2 11083 Demey, Benno 1621 0-1 10057 Callens, Freddy 1861
+3 10141 Deschepper, Simon 1619 ½-½ 23884 Libbrecht, Peter 1789
+4 13843 De Baerdemaeker, Mathieu 1180 0-1 10544 Daels, Emma 1366
+< 1551 > 1.5 - 2.5 < 1720 >
+Afdeling: 5 Serie: L
+471 Wachtebeke 4 LSV-Chesspirant 8 436
+1 22039 Dhuyvetter, Frederik 1815 0-1 18465 Cuvelier, Annelies 1567
+2 52680 Droesbeke, Patrick 1813 1-0 14279 Rogge, Parcival 1547
+3 21857 Dhuyvetter, Koen 1759 1-0 14293 Naessens, Wolf 1180
+4 12909 Zootjes, Mark 1650 ½-½ 14898 Cappan, Pjotr 1169
+< 1759 > 2.5 - 1.5 < 1366 >
+Afdeling: 5 Serie: L
+301 KOSK 4 Artevelde 3 465
+1 65854 Defour, Rudy 1771 1-0 10952 De Coninck, Rik 1715
+2 45276 Tytgat, Karel 1687 ½-½ 14985 De Baets, Keano 1538
+3 12261 Pierloot, Luc 1587 1-0 14384 Debucke, Dimitri 1332
+4 14148 Eggers, Roel 1394 1-0 14996 De Baets, Jelmer 1209
+< 1610 > 3.5 - 0.5 < 1449 >
+Afdeling: 5 Serie: M
+353 Wervik 1 BYE 0
+1 -
+2 -
+3 -
+4 -
+ -
+Afdeling: 5 Serie: M
+340 Izegem 1 Bredene 2 307
+1 46892 Vandenbroucke, Nico 2083 1-0 68705 Doom, Etienne 1622
+2 55417 Bruynooghe, Stefaan 1969 1-0 50264 Braet, Bram 1468
+3 30988 De Brouwere, Johan 1726 1-0 9831 De Meyere, Kathleen 1198
+4 13646 Delameilleure, Frederic 1333 ½-½ 50196 Dewulf, Bjorn 1194
+< 1778 > 3.5 - 0.5 < 1371 >
+Afdeling: 5 Serie: M
+508 Estaimpuis 2 KISK 2 302
+1 14289 Canario, Jonathan 1487 0-1 97674 Lesage, Eddy 1770
+2 15062 Poirier, Remi 1440 0-1 32140 Lepers, Philippe 1737
+3 14296 Lenaert, Hugo 1283 1-0 45144 Vanroose, Sibran 1545
+4 14247 Trari, Mehdi 1250 0-1 12027 Verbanck, Bram 1397
+< 1365 > 1 - 3 < 1612 >
+Afdeling: 5 Serie: M
+401 KGSRL 14 Tielt 2 304
+1 33618 Baeten, Yves 1706 0-1 76899 Lambrecht, Patrick 1691
+2 8788 Cornelis, Werner 1478 0-1 39357 Eelbode, Ronald 1642
+3 6891 De Visser, Stefaan 1331 1F-0F 96114 Van Den Houweele, Andre 1406
+4 28576 Burgdorffer, Anton 1329 1-0 11645 Coppens, Nils 1165
+< 1461 > 2 - 2 < 1476 >
+Afdeling: 5 Serie: M
+301 KOSK 6 Veurne 2 322
+1 36366 Vandevelde, Luc 1536 0-1 12629 Lucas, Jean 1720
+2 35106 Moelaert, Benny 1151 0-1 67865 Feys, Guy 1686
+3 14724 Roose, Casimir 1148 0-1 97528 Mahieu, Jacques 1646
+4 14727 Roose, Hoara 1146 ½-½ 4316 Vanassche, Renaat 1303
+< 1245 > 0.5 - 3.5 < 1589 >
+Afdeling: 5 Serie: M
+301 KOSK 5 KBSK 6 303
+1 14144 Masset, Serge 1530 ½-½ 11419 Callebaut, Giovanni 1411
+2 13004 Poppe, Gaitan 1512 0-1 12523 Piceu, Jarid 1364
+3 12000 Brackx, Theo 1501 1-0 13802 Verbeke, Lucas 1324
+4 11866 Tanghe, Joran 1386 0-1 13715 Decorte, Elias 1170
+< 1482 > 1.5 - 2.5 < 1317 >

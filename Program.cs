@@ -13,8 +13,8 @@ namespace Interclub
         static void Main(string[] args)
 
         {
-            string[] shitPloegen = new string[] { "2 FOUS DIOGENE", "2 Fous Diogène", "LE 666", "Le 666" };
-            for (int i = 2021; i <= 2021; i++)
+            string[] shitPloegen = new string[] { "2 FOUS DIOGENE", "2 Fous Diogène", "LE 666", "Le 666", "Pion 68", "PION 68", "666" };
+            for (int i = 2016; i <= 2021; i++)
             {
 
 
@@ -50,7 +50,7 @@ namespace Interclub
                         {
 
 
-                            if (regel.StartsWith("Division"))
+                            if (regel.StartsWith("Division")||regel.StartsWith("Afdeling"))
                             {
                                 klasse = int.Parse(regel.Substring(regel.IndexOf(" ") + 1, 1));
                                 reeks = regel.Substring(regel.Length - 1);
@@ -253,8 +253,8 @@ namespace Interclub
                         Id = game.Round,
                         ScoreAway = 0,
                         ScoreHome = 0,
-                        TeamAway = teamWit.ShallowCopy(),
-                        TeamHome = teamZwart.ShallowCopy(),
+                        TeamAway = teamZwart.ShallowCopy(),
+                        TeamHome = teamWit.ShallowCopy(),
                         Games = new List<Game>()
 
                     };
@@ -266,8 +266,8 @@ namespace Interclub
                         Id = game.Round,
                         ScoreAway = 0,
                         ScoreHome = 0,
-                        TeamAway = teamZwart.ShallowCopy(),
-                        TeamHome = teamWit.ShallowCopy(),
+                        TeamAway = teamWit.ShallowCopy(),
+                        TeamHome = teamZwart.ShallowCopy(),
                         Games = new List<Game>()
                     };
                 }
@@ -277,13 +277,13 @@ namespace Interclub
             round.Games.Add(game.RemoveGamesFromPlayer());
             if (game.Board % 2 == 1)
             {
-                round.ScoreAway += GetPointsWhite(game.Result);
-                round.ScoreHome += GetPointsBlack(game.Result);
+                round.ScoreAway += GetPointsBlack(game.Result); 
+                round.ScoreHome += GetPointsWhite(game.Result);
             }
             else
             {
-                round.ScoreAway += GetPointsBlack(game.Result);
-                round.ScoreHome += GetPointsWhite(game.Result);
+                round.ScoreAway += GetPointsWhite(game.Result);
+                round.ScoreHome += GetPointsBlack(game.Result);
             }
 
             round = teamZwart.Rounds.Find(round => round.Id == game.Round);
@@ -319,15 +319,15 @@ namespace Interclub
             }
             
             round.Games.Add(game.RemoveGamesFromPlayer());
-            if (game.Board % 2 == 0)
-            {
-                round.ScoreAway += GetPointsWhite(game.Result);
-                round.ScoreHome += GetPointsBlack(game.Result);
-            }
-            else
+            if (game.Board % 2 == 1)
             {
                 round.ScoreAway += GetPointsBlack(game.Result);
                 round.ScoreHome += GetPointsWhite(game.Result);
+            }
+            else
+            {
+                round.ScoreAway += GetPointsWhite(game.Result);
+                round.ScoreHome += GetPointsBlack(game.Result);
             }
 
         }
