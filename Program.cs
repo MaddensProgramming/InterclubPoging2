@@ -13,8 +13,8 @@ namespace Interclub
         static void Main(string[] args)
 
         {
-            string[] shitPloegen = new string[] { "2 FOUS DIOGENE", "2 Fous Diogène", "LE 666", "Le 666", "Pion 68", "PION 68", "666" };
-            for (int i = 2016; i <= 2021; i++)
+            string[] shitPloegen = new string[] { "2 FOUS DIOGENE", "2 Fous Diogène", "LE 666", "Le 666", "Pion 68", "PION 68", "666", "2 Fous Diogene" };
+            for (int i = 2022; i <= 2022; i++)
             {
 
 
@@ -24,7 +24,7 @@ namespace Interclub
                 Partijen partijen = new Partijen();
 
                 #region Load Data
-                for (int round = 1; round <= 11; round++)
+                for (int round = 1; round <= 5; round++)
                     using (StreamReader reader = new StreamReader($"rounds/{i}/ronde{round}.txt"))
                     {
                         #region initialize
