@@ -21,6 +21,7 @@ namespace Interclub
         public int Id { get; set; }
         public int Class { get; set; }
         public string Division { get; set; }
+        public int PairingsNumber { get; set; }
         public List<Round> Rounds { get; set; }
 
         public Team ShallowCopy()

@@ -13,6 +13,7 @@ namespace Interclub
         static void Main(string[] args)
 
         {
+
             string[] shitPloegen = new string[] { "2 FOUS DIOGENE", "2 Fous Diogène", "LE 666", "Le 666", "Pion 68", "PION 68", "666", "2 Fous Diogene" };
             for (int i = 2022; i <= 2022; i++)
             {
@@ -50,7 +51,7 @@ namespace Interclub
                         {
 
 
-                            if (regel.StartsWith("Division")||regel.StartsWith("Afdeling"))
+                            if (regel.StartsWith("Division") || regel.StartsWith("Afdeling"))
                             {
                                 klasse = int.Parse(regel.Substring(regel.IndexOf(" ") + 1, 1));
                                 reeks = regel.Substring(regel.Length - 1);
@@ -172,11 +173,11 @@ namespace Interclub
 
                 spelers.VulGegevensIn(partijen);
 
-                var club = new List<Club>();
+                var clubs = new List<Club>();
 
-                ploegen.Lijst.ForEach(ploeg => TryAddClub(ploeg, club));
+                ploegen.Lijst.ForEach(ploeg => TryAddClub(ploeg, clubs));
 
-                partijen.Alles.ForEach(partij => AddGame(partij, club));
+                partijen.Alles.ForEach(partij => AddGame(partij, clubs));
 
                 var serializeOptions = new JsonSerializerOptions
                 {
@@ -185,7 +186,29 @@ namespace Interclub
                 };
 
 
-                var jsonString = JsonSerializer.Serialize(club, serializeOptions);
+                using (StreamReader reader = new StreamReader($"Pairingsnumbers/pairingsnumbers.txt"))
+                {
+                    string regel;
+
+                    while ((regel = reader.ReadLine()) != null)
+                    {
+                        int.TryParse(regel.Substring(0, 2).Trim(), out int pairingsnumber);
+                        int.TryParse(regel.Substring(regel.IndexOf('\t') + 1, 3), out int clubnumber);
+                        int.TryParse(regel.Substring(regel.Length - 2, 2).Trim(), out int teamnumber);
+                        var club = clubs.Find(club => club.Id == clubnumber);
+                        if (club != null)
+                        {
+                            var team = club.Teams.Find(team => team.Id == teamnumber);
+                            team.PairingsNumber = pairingsnumber;
+
+                        }
+
+
+                    }
+                }
+
+
+                var jsonString = JsonSerializer.Serialize(clubs, serializeOptions);
 
                 FileStream fParameter = new FileStream($"{i}.json", FileMode.Create, FileAccess.Write);
                 StreamWriter m_WriterParameter = new StreamWriter(fParameter);
@@ -197,6 +220,8 @@ namespace Interclub
 
 
             }
+
+
 
 
         }
@@ -277,7 +302,7 @@ namespace Interclub
             round.Games.Add(game.RemoveGamesFromPlayer());
             if (game.Board % 2 == 1)
             {
-                round.ScoreAway += GetPointsBlack(game.Result); 
+                round.ScoreAway += GetPointsBlack(game.Result);
                 round.ScoreHome += GetPointsWhite(game.Result);
             }
             else
@@ -317,7 +342,7 @@ namespace Interclub
 
                 teamZwart.Rounds.Add(round);
             }
-            
+
             round.Games.Add(game.RemoveGamesFromPlayer());
             if (game.Board % 2 == 1)
             {
