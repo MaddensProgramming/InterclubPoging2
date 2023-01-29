@@ -14,6 +14,20 @@ namespace Interclub
 
         {
 
+
+            List<Tuple<int, int>> round1 = new List<Tuple<int, int>>() { Tuple.Create(1, 12), Tuple.Create(2, 11), Tuple.Create(3, 10), Tuple.Create(4, 9), Tuple.Create(5, 8), Tuple.Create(6, 7) };
+            List<Tuple<int, int>> round2 = new List<Tuple<int, int>>() { Tuple.Create(12, 7), Tuple.Create(8, 6), Tuple.Create(9, 5), Tuple.Create(10, 4), Tuple.Create(11, 3), Tuple.Create(1, 2) };
+            List<Tuple<int, int>> round3 = new List<Tuple<int, int>>() { Tuple.Create(2, 12), Tuple.Create(3, 1), Tuple.Create(4, 11), Tuple.Create(5, 10), Tuple.Create(6, 9), Tuple.Create(7, 8) };
+            List<Tuple<int, int>> round4 = new List<Tuple<int, int>>() { Tuple.Create(12, 8), Tuple.Create(9, 7), Tuple.Create(10, 6), Tuple.Create(11, 5), Tuple.Create(1, 4), Tuple.Create(2, 3) };
+            List<Tuple<int, int>> round5 = new List<Tuple<int, int>>() { Tuple.Create(3, 12), Tuple.Create(4, 2), Tuple.Create(5, 1), Tuple.Create(6, 11), Tuple.Create(7, 10), Tuple.Create(8, 9) };
+            List<Tuple<int, int>> round6 = new List<Tuple<int, int>>() { Tuple.Create(12, 9), Tuple.Create(10, 8), Tuple.Create(11, 7), Tuple.Create(1, 6), Tuple.Create(2, 5), Tuple.Create(3, 4) };
+            List<Tuple<int, int>> round7 = new List<Tuple<int, int>>() { Tuple.Create(4, 12), Tuple.Create(5, 3), Tuple.Create(6, 2), Tuple.Create(7, 1), Tuple.Create(8, 11), Tuple.Create(9, 10) };
+            List<Tuple<int, int>> round8 = new List<Tuple<int, int>>() { Tuple.Create(12, 10), Tuple.Create(11, 9), Tuple.Create(1, 8), Tuple.Create(2, 7), Tuple.Create(3, 6), Tuple.Create(4, 5) };
+            List<Tuple<int, int>> round9 = new List<Tuple<int, int>>() { Tuple.Create(5, 12), Tuple.Create(6, 4), Tuple.Create(7, 3), Tuple.Create(8, 2), Tuple.Create(9, 1), Tuple.Create(10, 11) };
+            List<Tuple<int, int>> round10 = new List<Tuple<int, int>>() { Tuple.Create(12, 11), Tuple.Create(1, 10), Tuple.Create(2, 9), Tuple.Create(3, 8), Tuple.Create(4, 7), Tuple.Create(5, 6) };
+            List<Tuple<int, int>> round11 = new List<Tuple<int, int>>() { Tuple.Create(6, 12), Tuple.Create(7, 5), Tuple.Create(8, 4), Tuple.Create(9, 3), Tuple.Create(10, 2), Tuple.Create(11, 1) };
+            var rounds = new List<List<Tuple<int, int>>>() { round1, round2, round3, round4, round5, round6, round7, round8, round9, round10, round11 };
+
             string[] shitPloegen = new string[] { "2 FOUS DIOGENE", "2 Fous Diogène", "LE 666", "Le 666", "Pion 68", "PION 68", "666", "2 Fous Diogene" };
             for (int i = 2022; i <= 2022; i++)
             {
@@ -202,8 +216,31 @@ namespace Interclub
                             team.PairingsNumber = pairingsnumber;
 
                         }
+                    }
 
+                }
 
+                var teams = clubs.SelectMany(club => club.Teams);
+
+                foreach (var team in teams)
+                {
+                    for (int roundnumber = 1; roundnumber < 12; roundnumber++)
+                    {
+                        if (!team.Rounds.Exists(round => round.Id == roundnumber))
+                        {
+                            var pairing = rounds[roundnumber - 1].FirstOrDefault(pairing => pairing.Item1 == team.PairingsNumber || pairing.Item2 == team.PairingsNumber);
+                            if (pairing?.Item1 == team.PairingsNumber)
+                            {
+                                var enemy = teams.FirstOrDefault(enemy => enemy.Division == team.Division && enemy.Class == team.Class && enemy.PairingsNumber == pairing.Item2);
+                                team.Rounds.Add(new Round() { Id = roundnumber, ScoreAway = 0, ScoreHome = 0, Games = new List<Game>(), TeamHome = team?.ShallowCopy(), TeamAway = enemy?.ShallowCopy() });
+                            }
+
+                            if (pairing?.Item2 == team.PairingsNumber)
+                            {
+                                var enemy = teams.FirstOrDefault(enemy => enemy.Division == team.Division && enemy.Class == team.Class && enemy.PairingsNumber == pairing.Item1);
+                                team.Rounds.Add(new Round() { Id = roundnumber, ScoreAway = 0, ScoreHome = 0, Games = new List<Game>(), TeamHome = enemy?.ShallowCopy(), TeamAway = team?.ShallowCopy() });
+                            }
+                        }
                     }
                 }
 
