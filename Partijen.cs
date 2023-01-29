@@ -83,10 +83,10 @@ namespace Interclub
 
             decimal rating = 0;
             var lijstwit = from partij in Alles
-                           where partij.White == speler
+                           where partij.White == speler&&(partij.Result==1 || partij.Result ==2 ||partij.Result==3)
                            select partij;
             var lijstzwart = from partij in Alles
-                             where partij.Black == speler
+                             where partij.Black == speler && (partij.Result == 1 || partij.Result == 2 || partij.Result == 3)
                              select partij;
 
             foreach (Game partij in lijstwit)

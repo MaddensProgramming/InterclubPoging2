@@ -39,7 +39,7 @@ namespace Interclub
                 Partijen partijen = new Partijen();
 
                 #region Load Data
-                for (int round = 1; round <= 5; round++)
+                for (int round = 1; round <= 6; round++)
                     using (StreamReader reader = new StreamReader($"rounds/{i}/ronde{round}.txt"))
                     {
                         #region initialize
@@ -74,7 +74,7 @@ namespace Interclub
 
 
 
-                            if (regel.Length > 6 && !regel.Contains('>'))
+                            if (regel.Length > 6 && !regel.Contains('>') &&!regel.EndsWith('-') && regel[2]!='-')
                             {
                                 #region Ploegen Inlezen
                                 if (int.TryParse(regel.Substring(0, 3), out _) || regel.StartsWith("0 BYE"))
